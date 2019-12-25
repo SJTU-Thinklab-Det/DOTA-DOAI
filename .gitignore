@@ -114,20 +114,23 @@ checkpoint
 __pycache__/
 *.json
 *.zip
-
-# vis files
-*.png*
-*.jpg*
 *events.out.tfevents*
 *.ckpt
 *.pb
 *.tfrecord*
 
 # folder
-*/tools/demos/*
-*/tools/test_dota/*
-*/tools/test_icdar2015/*
-*/tools/txt_output/*
-*/output/*
-*/data/pretrained_weights/*
+FPN_Tensorflow/tools/demos/*
+FPN_Tensorflow/tools/test_dota/*
+FPN_Tensorflow/tools/test_icdar2015/*
+FPN_Tensorflow/tools/txt_output/*
+FPN_Tensorflow/output/summary
+FPN_Tensorflow/data/pretrained_weights/*
+
+FPN_Tensorflow_Rotation/tools/demos/*
+FPN_Tensorflow_Rotation/tools/test_dota/*
+FPN_Tensorflow_Rotation/tools/test_icdar2015/*
+FPN_Tensorflow_Rotation/tools/txt_output/*
+FPN_Tensorflow_Rotation/output/summary
+FPN_Tensorflow_Rotation/data/pretrained_weights/*
 
