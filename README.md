@@ -16,7 +16,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | Model |    Backbone    |    Training data    |    Val data    |    mAP   | Model Link | Tricks | lr schd | Data Augmentation | GPU | Image/GPU | Configs |      
 |:------------:|:------------:|:---------:|:-----------:|:----------:|:-----------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|    
 | [FPN](https://arxiv.org/abs/1612.03144) (baseline) | ResNet50_v1 (600,800,1024)->800 | DOTA1.0 trainval | DOTA1.0 test | 76.03 | [model](https://drive.google.com/file/d/1aT_wvoV9ao2COZHOe6OfJglBbnFa8qqa/view?usp=sharing) | No | 1x | No | 2X Quadro RTX 8000 | 1 | cfgs_dota1.0_res50_v2.py |    
-| FPN (memory consumption) | **ResNet152_v1d (600,800,1024)->MS** | DOTA1.0 trainval | DOTA1.0 test | 81.23 | [model]() | **ALL** | **2x** | **Yes** | 2X Quadro RTX 8000 | 1 | cfgs_dota1.0_res152_v1.py |     
+| FPN (memory consumption) | **ResNet152_v1d (600,800,1024)->MS** | DOTA1.0 trainval | DOTA1.0 test | 81.23 | [model](https://drive.google.com/file/d/1HaSU75llga_Em1O73Jp8ZwOoHPZtaVGj/view?usp=sharing) | **ALL** | **2x** | **Yes** | 2X Quadro RTX 8000 | 1 | cfgs_dota1.0_res152_v1.py |     
 
 
 ### Visualization
@@ -41,9 +41,10 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | R<sup>3</sup>Det | ResNet152 | 73.74 | [arXiv:1908.05612](https://arxiv.org/abs/1908.05612) | [code](https://github.com/SJTU-Thinklab-Det/R3Det_Tensorflow) | refined single stage, feature alignment | :white_check_mark: |
 | RSDet | ResNet152 | 74.10 | [arXiv:1911.08299](https://arxiv.org/abs/1911.08299) | - | quadrilateral bbox, angular boundary problem | :white_check_mark: |
 | Gliding Vertex | ResNet101 | 75.02 | [arXiv:1911.09358](https://arxiv.org/abs/1911.09358) | - | quadrilateral bbox | :white_check_mark: |
+| Mask OBB | ResNeXt-101 | 75.33 | [Remote Sensing](https://www.mdpi.com/2072-4292/11/24/2930/htm) | - | attention, multi-task | :white_check_mark: |
 | APE | ResNeXt-101(32x4) | 75.75 | [arXiv:1906.09447](https://arxiv.xilesou.top/abs/1906.09447) | - | length independent IoU (LIIoU)| :white_check_mark: |
 | OWSR | Ensemble (ResNet101 +  ResNeXt101 + mdcn-ResNet101) | 76.36 | [CVPR2019 WorkShop](http://openaccess.thecvf.com/content_CVPRW_2019/papers/DOAI/Li_Learning_Object-Wise_Semantic_Representation_for_Detection_in_Remote_Sensing_Imagery_CVPRW_2019_paper.pdf) | - | enhanced FPN | |
-| FPN-InLD / R<sup>3</sup>Det-InLD (R<sup>3</sup>Det++) | ResNet101 / ResNet152 | 76.81 / 76.56 | - | [code](https://github.com/SJTU-Thinklab-Det/R3Det_Tensorflow) |
+| FPN-InLD / R<sup>3</sup>Det-InLD (R<sup>3</sup>Det++) | ResNet101 / ResNet152 | 76.81 / 76.56 | - | [R<sup>3</sup>Det++](https://github.com/SJTU-Thinklab-Det/R3Det_Tensorflow), [FPN-InLD](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI) |
 
 ### DOTA1.0 (Task2)
 | Model | Backbone | mAP | Paper Link | Code Link | Remark | Recommend |
@@ -55,9 +56,11 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | EFR | VGG16 | 73.49 | [Remote Sensing](https://www.mdpi.com/2072-4292/11/18/2095) | [code](https://github.com/pioneer2018/dtdm-di) | enhanced FPN | |
 | SCRDet | ResNet101 | 75.35 | [ICCV2019](http://openaccess.thecvf.com/content_ICCV_2019/papers/Yang_SCRDet_Towards_More_Robust_Detection_for_Small_Cluttered_and_Rotated_ICCV_2019_paper.pdf) | [code](https://github.com/DetectionTeamUCAS/R2CNN-Plus-Plus_Tensorflow) | attention, angular boundary problem | :white_check_mark: |
 | FADet | ResNet101 | 75.38 | [ICIP2019](https://ieeexplore.ieee.org/abstract/document/8803521) | - | attention | |
+| Mask OBB | ResNeXt-101 | 76.98 | [Remote Sensing](https://www.mdpi.com/2072-4292/11/24/2930/htm) | - | attention, multi-task | :white_check_mark: |
 | A<sup>2</sup>RMNet | ResNet101 | 78.45 | [Remote Sensing](https://www.mdpi.com/2072-4292/11/13/1594) | - | attention, enhanced FPN, different pooled sizes | |
 | OWSR | Ensemble (ResNet101 +  ResNeXt101 + mdcn-ResNet101) | 78.79 | [CVPR2019 WorkShop](http://openaccess.thecvf.com/content_CVPRW_2019/papers/DOAI/Li_Learning_Object-Wise_Semantic_Representation_for_Detection_in_Remote_Sensing_Imagery_CVPRW_2019_paper.pdf) | - | enhanced FPN | |
 | DM-FPN | ResNet-Based | 79.27 | [Remote Sensing](https://www.mdpi.com/2072-4292/11/7/755/) | - | enhanced FPN | |
+| FPN-InLD | ResNet152 | 81.23 | - | [FPN-InLD](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI) |
 
 ### DOTA1.5 (Task1)
 | Model | Backbone | mAP | Paper Link | Code Link | Remark | Recommend |
