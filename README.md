@@ -33,6 +33,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | RetinaNet-H | ResNet101 | 64.73 | [arXiv:1908.05612](https://arxiv.org/abs/1908.05612) | [code](https://github.com/DetectionTeamUCAS/RetinaNet_Tensorflow_Rotation) | single stage, baseline | :white_check_mark: |
 | ICN | ResNet101 | 68.16 | [ACCV2018](https://link.springer.com/chapter/10.1007/978-3-030-20893-6_10) | - | image cascade, multi-scale | :white_check_mark: |
 | RoI Transformer | ResNet101 | 69.56 | [CVPR2019](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ding_Learning_RoI_Transformer_for_Oriented_Object_Detection_in_Aerial_Images_CVPR_2019_paper.pdf) | [code](https://github.com/dingjiansw101/RoITransformer_DOTA) | roi transformer | :white_check_mark: |
+| P-RSDet | ResNet101 | 69.82 | [arXiv:2001.02988](https://arxiv.org/abs/2001.02988) | - | anchor free, polar coordinates | :white_check_mark: |
 | CAD-Net | ResNet101 | 69.90 | [TGRS](https://ieeexplore.ieee.org/document/8804364/)  [arXiv:1903.00857](https://arxiv.org/abs/1903.00857) | - | attention |  |
 | O<sup>2</sup>-DNet | Hourglass104 | 71.04 | [arXiv:1912.10694](https://arxiv.org/abs/1912.10694) | - | anchor free | :white_check_mark: |
 | SCRDet | ResNet101 | 72.61 | [ICCV2019](http://openaccess.thecvf.com/content_ICCV_2019/papers/Yang_SCRDet_Towards_More_Robust_Detection_for_Small_Cluttered_and_Rotated_ICCV_2019_paper.pdf) | [code](https://github.com/DetectionTeamUCAS/R2CNN-Plus-Plus_Tensorflow) | attention, angular boundary problem | :white_check_mark: |
