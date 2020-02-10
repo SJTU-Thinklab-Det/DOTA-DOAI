@@ -43,6 +43,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | RSDet | ResNet152 | 74.10 | [arXiv:1911.08299](https://arxiv.org/abs/1911.08299) | - | quadrilateral bbox, angular boundary problem | :white_check_mark: |
 | Gliding Vertex | ResNet101 | 75.02 | [arXiv:1911.09358](https://arxiv.org/abs/1911.09358) | - | quadrilateral bbox | :white_check_mark: |
 | Mask OBB | ResNeXt-101 | 75.33 | [Remote Sensing](https://www.mdpi.com/2072-4292/11/24/2930/htm) | - | attention, multi-task | :white_check_mark: |
+| FFA | ResNet101 | 75.7 | [ISPRS](https://www.sciencedirect.com/science/article/abs/pii/S0924271620300319) | - | enhanced FPN, rotation proposals | |
 | APE | ResNeXt-101(32x4) | 75.75 | [arXiv:1906.09447](https://arxiv.xilesou.top/abs/1906.09447) | - | length independent IoU (LIIoU)| :white_check_mark: |
 | OWSR | Ensemble (ResNet101 +  ResNeXt101 + mdcn-ResNet101) | 76.36 | [CVPR2019 WorkShop](http://openaccess.thecvf.com/content_CVPRW_2019/papers/DOAI/Li_Learning_Object-Wise_Semantic_Representation_for_Detection_in_Remote_Sensing_Imagery_CVPRW_2019_paper.pdf) | - | enhanced FPN | |
 | FPN-InLD / R<sup>3</sup>Det-InLD (R<sup>3</sup>Det++) | ResNet101 / ResNet152 | 76.81 / 76.56 | - | [TF:R<sup>3</sup>Det++](https://github.com/SJTU-Thinklab-Det/R3Det_Tensorflow), [FPN-InLD](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI) |
