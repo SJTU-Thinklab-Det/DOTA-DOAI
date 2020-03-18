@@ -12,8 +12,8 @@
 | SAR-Ship-Dataset | 1 | horizontal BB | [Remote Sensing](https://www.mdpi.com/2072-4292/11/7/765) | [Link](https://github.com/CAESAR-Radi/SAR-Ship-Dataset) | SAR Ship |
 | SSDD | 1 | horizontal BB | [BIGSARDATA](https://ieeexplore.ieee.org/document/8124934) | - | SAR Ship |
 | SSDD+ | 1 | oriented BB | - | - | SAR Ship |
-| AIR-SARShip-1.0 | 1 | horizontal BB | [雷达学报](http://radars.ie.ac.cn/article/doi/10.12000/JR19097?viewType=HTML) | - | SAR Ship |
+| AIR-SARShip-1.0 | 1 | horizontal BB | [雷达学报](http://radars.ie.ac.cn/article/doi/10.12000/JR19097?viewType=HTML) | [Link](http://radars.ie.ac.cn/web/data/getData?dataType=SARDataset) | SAR Ship |
 | HRSC2016 | 4 | oriented BB | [ICPR](http://159.226.21.68/handle/173211/14545) | [Link](http://www.escience.cn/people/liuzikun/DataSet.html) | Ship |
 | FGSD | 4 | oriented BB | [arXiv:2003.06832](https://arxiv.org/abs/2003.06832) | - | Ship |
 | DLR-3K | 2 | oriented BB | [GRSL](https://ieeexplore.ieee.org/abstract/document/7122912/) | [Baidu Drive](https://pan.baidu.com/s/1nVYluQ97jftT1zwV8HqUGA) , Password:bh71 | Vehicle |
-| VEDAI | 9 | oriented BB | [JVCIR](https://www.sciencedirect.com/science/article/pii/S1047320315002187) | [Link](http://radars.ie.ac.cn/web/data/getData?dataType=SARDataset) | Vehicle |
+| VEDAI | 9 | oriented BB | [JVCIR](https://www.sciencedirect.com/science/article/pii/S1047320315002187) | - | Vehicle |
