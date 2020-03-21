@@ -1,4 +1,4 @@
-# Instance-Level Feature Denoising
+# Towards More Robust Detection for Small, Cluttered and Rotated Objects via Instance-Level Feature Denoising
 
 ## Abstract
 This repo is based on [FPN](https://arxiv.org/abs/1612.03144), and it is completed by [YangXue](https://github.com/yangxue0827).
