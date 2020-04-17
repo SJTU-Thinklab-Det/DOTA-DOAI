@@ -46,7 +46,7 @@ python setup.py build_ext --inplace (or make)
 ```     
 (1) Modify parameters (such as CLASS_NUM, DATASET_NAME, VERSION, etc.) in $PATH_ROOT/libs/configs/cfgs.py
 (2) Add category information in $PATH_ROOT/libs/label_name_dict/lable_dict.py     
-(3) Add data_name to $PATH_ROOT/data/io/read_tfrecord.py 
+(3) Add data_name to $PATH_ROOT/data/io/read_tfrecord_multi_gpu.py 
 ```     
 
 2、Make tfrecord     
