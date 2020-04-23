@@ -39,6 +39,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | O<sup>2</sup>-DNet | Hourglass104 | 71.04 | [arXiv:1912.10694](https://arxiv.org/abs/1912.10694) | - | anchor free | :white_check_mark: |
 | SCRDet | ResNet101 | 72.61 | [ICCV2019](http://openaccess.thecvf.com/content_ICCV_2019/papers/Yang_SCRDet_Towards_More_Robust_Detection_for_Small_Cluttered_and_Rotated_ICCV_2019_paper.pdf) | [TF:R<sup>2</sup>CNN++](https://github.com/DetectionTeamUCAS/R2CNN-Plus-Plus_Tensorflow), [IoU-Smooth L1](https://github.com/DetectionTeamUCAS/RetinaNet_Tensorflow_Rotation) | attention, angular boundary problem | :white_check_mark: |
 | SARD | ResNet101 | 72.95 | [Access](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8917630) | - | IoU-based weighted loss | |
+| DRN | Hourglass104 | 73.23 | CVPR2020  | - |  feature selection module, dynamic refinement head | |
 | FADet | ResNet101 | 73.28 | [ICIP2019](https://ieeexplore.ieee.org/abstract/document/8803521) | - | attention | |
 | R<sup>3</sup>Det | ResNet152 | 73.74 | [arXiv:1908.05612](https://arxiv.org/abs/1908.05612) | [TF](https://github.com/SJTU-Thinklab-Det/R3Det_Tensorflow) | refined single stage, feature alignment | :white_check_mark: |
 | RSDet | ResNet152 | 74.10 | [arXiv:1911.08299](https://arxiv.org/abs/1911.08299) | - | quadrilateral bbox, angular boundary problem | :white_check_mark: |
