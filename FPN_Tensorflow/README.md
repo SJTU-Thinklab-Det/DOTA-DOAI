@@ -1,7 +1,8 @@
-# Towards More Robust Detection for Small, Cluttered and Rotated Objects via Instance-Level Feature Denoising
+# Detecting Small, Cluttered and Rotated Objects via Instance-Level Feature Denoising
 
 ## Abstract
-This repo is based on [FPN](https://arxiv.org/abs/1612.03144), and it is completed by [YangXue](https://github.com/yangxue0827).
+Instance-Level Feature Denoising (InLD) is an important part of our paper: [SCRDet++: Detecting Small, Cluttered and Rotated Objects via Instance-Level Feature Denoising and Rotation Loss Smoothing](http://thinklab.sjtu.edu.cn/SCRDet++.html).     
+This repo is based on [FPN](https://arxiv.org/abs/1612.03144), and it is completed by [YangXue](https://yangxue0827.github.io/).
 
 ## Pipeline
 ![5](pipeline.png)
@@ -94,6 +95,19 @@ tensorboard --logdir=.
 ![6](images2.png)
 
 ![4](scalars.png)
+
+## Citation
+
+If this is useful for your research, please consider cite.
+
+```
+@article{yang2020r3det++,
+    title={SCRDet++: Detecting Small, Cluttered and Rotated Objects via Instance-Level Feature Denoising and Rotation Loss Smoothing},
+    author={Yang, Xue and Yan, Junchi and Yang, Xiaokang and Tang, Jin and Liao, Wenglong and He, Tao},
+    journal={arXiv preprint arXiv:2004.13316},
+    year={2020}
+}
+```
 
 ## Reference
 1、https://github.com/endernewton/tf-faster-rcnn   

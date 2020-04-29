@@ -24,9 +24,7 @@ roundabout:0.6743120681573173,
 harbor:0.7470841745008242,
 swimming-pool:0.7851104542160608,
 helicopter:0.6292918435873293
-
 The submitted information is :
-
 Description: FPN_Res50D_DOTA1.0_20191218_v2_30w
 Username: SJTU-Det
 Institute: SJTU
@@ -171,6 +169,4 @@ CONCAT_CHANNEL = 1024  # 256
 
 ADD_GLOBAL_CTX = False
 ADD_EXTR_CONVS_FOR_REG = 0  # use 0 to do not use any extra convs
-
-
 
