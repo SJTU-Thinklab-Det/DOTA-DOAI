@@ -198,13 +198,13 @@ class DetectionNetwork(object):
                 #     bbox_input_fc_feat = slim.flatten(bbox_input_feat, scope='bbox_feat_flatten')
                 #
                 #     bbox_pred = slim.fully_connected(bbox_input_fc_feat,
-                #                                      num_outputs=(cfgs.CLASS_NUM + 1) * 4,
+                #                                      num_outputs=(cfgs.CLASS_NUM + 1) * 5,
                 #                                      weights_initializer=cfgs.BBOX_INITIALIZER,
                 #                                      activation_fn=None, trainable=self.is_training,
                 #                                      scope='reg_fc')
                 # else:
                 #     bbox_pred = slim.fully_connected(fc_flatten,
-                #                                      num_outputs=(cfgs.CLASS_NUM + 1) * 4,
+                #                                      num_outputs=(cfgs.CLASS_NUM + 1) * 5,
                 #                                      weights_initializer=cfgs.BBOX_INITIALIZER,
                 #                                      activation_fn=None, trainable=self.is_training,
                 #                                      scope='reg_fc')
@@ -216,7 +216,7 @@ class DetectionNetwork(object):
                 bbox_input_fc_feat = slim.flatten(bbox_input_feat, scope='bbox_feat_flatten')
 
                 bbox_pred = slim.fully_connected(bbox_input_fc_feat,
-                                                 num_outputs=(cfgs.CLASS_NUM + 1) * 4,
+                                                 num_outputs=(cfgs.CLASS_NUM + 1) * 5,
                                                  weights_initializer=cfgs.BBOX_INITIALIZER,
                                                  activation_fn=None, trainable=self.is_training,
                                                  scope='reg_fc')
