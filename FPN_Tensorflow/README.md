@@ -101,7 +101,7 @@ tensorboard --logdir=.
 If this is useful for your research, please consider cite.
 
 ```
-@article{yang2020r3det++,
+@article{yang2020scrdet++,
     title={SCRDet++: Detecting Small, Cluttered and Rotated Objects via Instance-Level Feature Denoising and Rotation Loss Smoothing},
     author={Yang, Xue and Yan, Junchi and Yang, Xiaokang and Tang, Jin and Liao, Wenglong and He, Tao},
     journal={arXiv preprint arXiv:2004.13316},
