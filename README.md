@@ -60,7 +60,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | Model | Backbone | mAP | Paper Link | Code Link | Remark | Recommend |
 |:-----:|:--------:|:---:|:----------:|:---------:|:---------:|:---------:|
 | FR-H (DOTA) | ResNet101 | 60.46 | [CVPR2018](http://openaccess.thecvf.com/content_cvpr_2018/html/Xia_DOTA_A_Large-Scale_CVPR_2018_paper.html) | [MXNet](https://github.com/jessemelpolio/Faster_RCNN_for_DOTA) | DOTA dataset, baseline | :white_check_mark: |
-| Deep Active Learning | ResNet18 | 60.46 | [arXiv:2003.08793](https://arxiv.org/abs/2003.08793) | - | CenterNet, Deep Active Learning | :white_check_mark: |
+| Deep Active Learning | ResNet18 | 64.26 | [arXiv:2003.08793](https://arxiv.org/abs/2003.08793) | - | CenterNet, Deep Active Learning | :white_check_mark: |
 | SBL | ResNet50 | 64.77 | [arXiv:1810.08103](https://arxiv.org/abs/1810.08103) | - | single stage |
 | FMSSD | VGG16 | 72.43 | [TGRS](https://ieeexplore.ieee.org/abstract/document/8930933) | - | IoU-based weighted loss, enhanced FPN |  |
 | ICN | ResNet101 | 72.45 | [ACCV2018](https://link.springer.com/chapter/10.1007/978-3-030-20893-6_10) | - | image cascade, multi-scale | :white_check_mark: |
