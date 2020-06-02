@@ -10,8 +10,8 @@
 | HRRSD | 13 | horizontal BB | [TGRS](https://ieeexplore.ieee.org/document/8676107) | [Link](https://github.com/CrazyStoneonRoad/TGRS-HRRSD-Dataset) | |
 | RSOD | 4 | horizontal BB | [TGRS](https://ieeexplore.ieee.org/abstract/document/7827088) | [Link](https://github.com/RSIA-LIESMARS-WHU/RSOD-Dataset-) |
 | SAR-Ship-Dataset | 1 | horizontal BB | [Remote Sensing](https://www.mdpi.com/2072-4292/11/7/765) | [Link](https://github.com/CAESAR-Radi/SAR-Ship-Dataset) | SAR Ship |
-| SSDD | 1 | horizontal BB | [BIGSARDATA](https://ieeexplore.ieee.org/document/8124934) | - | SAR Ship |
-| SSDD+ | 1 | oriented BB | - | - | SAR Ship |
+| SSDD | 1 | horizontal BB | [BIGSARDATA](https://ieeexplore.ieee.org/document/8124934) | [Baidu Drive (fyh0)](https://pan.baidu.com/s/1bkg0jd0H9tV8w25gRO1c6A) | SAR Ship |
+| SSDD+ | 1 | oriented BB | - | [Baidu Drive (oh6x)](https://pan.baidu.com/s/1mWlZ4r6_4k8GHer52BwbzQ) | SAR Ship |
 | AIR-SARShip-1.0 | 1 | horizontal BB | [雷达学报](http://radars.ie.ac.cn/article/doi/10.12000/JR19097?viewType=HTML) | [Link](http://radars.ie.ac.cn/web/data/getData?dataType=SARDataset) | SAR Ship |
 | HRSID | 1 | instance | - | [Link](https://github.com/chaozhong2010/HRSID) | SAR Ship |
 | HRSC2016 | 4 | oriented BB | [ICPR](http://159.226.21.68/handle/173211/14545) | [Link](http://www.escience.cn/people/liuzikun/DataSet.html) | Ship |
@@ -19,3 +19,4 @@
 | DLR-3K | 2 | oriented BB | [GRSL](https://ieeexplore.ieee.org/abstract/document/7122912/) | [Baidu Drive (bh71)](https://pan.baidu.com/s/1nVYluQ97jftT1zwV8HqUGA) | Vehicle |
 | VEDAI | 9 | oriented BB | [JVCIR](https://www.sciencedirect.com/science/article/pii/S1047320315002187) | [Link](https://downloads.greyc.fr/vedai/) | Vehicle |
 | COWC | 1 | one dot | [ECCV2016](https://link.springer.com/chapter/10.1007/978-3-319-46487-9_48) | [Link](https://gdo152.llnl.gov/cowc/) | Vehicle |
+| UVSD | 1 | instance | [Remote Sensing](https://www.mdpi.com/2072-4292/12/11/1760) | [Link](https://github.com/liuchunsense/) | Vehicle |
