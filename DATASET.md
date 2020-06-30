@@ -20,3 +20,4 @@
 | VEDAI | 9 | oriented BB | [JVCIR](https://www.sciencedirect.com/science/article/pii/S1047320315002187) | [Link](https://downloads.greyc.fr/vedai/) | Vehicle |
 | COWC | 1 | one dot | [ECCV2016](https://link.springer.com/chapter/10.1007/978-3-319-46487-9_48) | [Link](https://gdo152.llnl.gov/cowc/) | Vehicle |
 | UVSD | 1 | instance | [Remote Sensing](https://www.mdpi.com/2072-4292/12/11/1760) | [Link](https://github.com/liuchunsense/) | Vehicle |
+| RarePlanes | 1 to 110 | instance | [arXiv:2006.02963](https://arxiv.org/abs/2006.02963) | [Link](https://www.cosmiqworks.org/RarePlanes/) | Plane |
