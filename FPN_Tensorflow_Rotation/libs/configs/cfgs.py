@@ -4,38 +4,42 @@ import os
 import tensorflow as tf
 
 """
-v2 + InLD
+res152D_freezeC1C2_rmaskP2_Concat_800train_augMS_8conv_CTX
+
 This is your result for task 1:
 
-    mAP: 0.7086517350178861
-    ap of each class: plane:0.8962653483302979,
-    baseball-diamond:0.833478499985653,
-    bridge:0.46066155713282864,
-    ground-track-field:0.6863290197064206,
-    small-vehicle:0.698084502450476,
-    large-vehicle:0.716798761659654,
-    ship:0.7602708729777319,
-    tennis-court:0.9072214393041105,
-    basketball-court:0.8596472400549294,
-    storage-tank:0.7817948948796498,
-    soccer-ball-field:0.5574178112524866,
-    roundabout:0.6139924728249598,
-    harbor:0.6281941458465885,
-    swimming-pool:0.6914256646229733,
-    helicopter:0.5381937942395326
+    mAP: 0.7898724310364561
+    ap of each class:
+    plane:0.9006183729548372,
+    baseball-diamond:0.84372788104372,
+    bridge:0.567618431335344,
+    ground-track-field:0.758221344745048,
+    small-vehicle:0.7932960821323363,
+    large-vehicle:0.7450420960292438,
+    ship:0.8650554150856641,
+    tennis-court:0.907718083481144,
+    basketball-court:0.8850621616004604,
+    storage-tank:0.8684151065606698,
+    soccer-ball-field:0.6960451226690271,
+    roundabout:0.690465622928499,
+    harbor:0.761470680192509,
+    swimming-pool:0.7992065528123767,
+    helicopter:0.766123511975963
 
 The submitted information is :
 
-Description: FPN_Res50D_DOTA1.0_20191112_v3
-Username: SJTU-Det
-Institute: SJTU
-Emailadress: yangxue-2019-sjtu@sjtu.edu.cn
-TeamMembers: yangxue
+Description: FPN_Res152D_DOTA1.0_20191106_v1_120w_ms
+Username: DetectionTeamCSU
+Institute: CSU
+Emailadress: yangxue@csu.edu.cn
+TeamMembers: YangXue
+
+
 """
 
 # ------------------------------------------------
-VERSION = 'FPN_Res50D_DOTA1.0_20191112_v3'
-NET_NAME = 'resnet50_v1d'
+VERSION = 'FPN_Res152D_DOTA1.0_20191106_v1'
+NET_NAME = 'resnet152_v1d'
 ADD_BOX_IN_TENSORBOARD = True
 
 # ---------------------------------------- System_config
@@ -46,7 +50,7 @@ GPU_GROUP = "0,1"
 NUM_GPU = len(GPU_GROUP.strip().split(','))
 SHOW_TRAIN_INFO_INTE = 50
 SMRY_ITER = 2000
-SAVE_WEIGHTS_INTE = 30000
+SAVE_WEIGHTS_INTE = 30000 * 2
 
 SUMMARY_PATH = ROOT_PATH + '/output/summary'
 TEST_SAVE_PATH = ROOT_PATH + '/tools/test_result'
@@ -94,15 +98,15 @@ PIXEL_MEAN = [123.68, 116.779, 103.939]  # R, G, B. In tf, channel is RGB. In op
 PIXEL_MEAN_ = [0.485, 0.456, 0.406]
 PIXEL_STD = [0.229, 0.224, 0.225]
 
-IMG_SHORT_SIDE_LEN = 800
-IMG_MAX_LENGTH = 1200
+IMG_SHORT_SIDE_LEN = [800, 900, 1000, 1100, 600, 400]
+IMG_MAX_LENGTH = 1100
 CLASS_NUM = 15
 
-IMG_ROTATE = False
-RGB2GRAY = False
-VERTICAL_FLIP = False
+IMG_ROTATE = True
+RGB2GRAY = True
+VERTICAL_FLIP = True
 HORIZONTAL_FLIP = True
-IMAGE_PYRAMID = False
+IMAGE_PYRAMID = True
 
 # --------------------------------------------- Network_config
 INITIALIZER = tf.random_normal_initializer(mean=0.0, stddev=0.01)
@@ -161,16 +165,13 @@ SIGMOID_ON_DOT = False
 MASK_ACT_FET = True  # weather use mask generate 256 channels to dot feat.
 GENERATE_MASK_LIST = ["P2", "P3", "P4", "P5"]
 ADDITION_LAYERS = [4, 4, 4, 4]  # add 4 layer to generate P2_mask, 2 layer to generate P3_mask
-ENLAEGE_RF_LIST = []
+ENLAEGE_RF_LIST = ["P2", "P3", "P4", "P5"]
 SUPERVISED_MASK_LOSS_WEIGHT = 0.1
 
 # -------------------------------------------Tricks config
-USE_CONCAT = False
+USE_CONCAT = True
 CONCAT_CHANNEL = 1024  # 256
 ROTATE_NMS_USE_GPU = True  # When Train, use GPU NMS, When Test, Use CPU NMS.
 
-ADD_GLOBAL_CTX = False
-ADD_EXTR_CONVS_FOR_REG = 0  # use 0 to do not use any extra convs
-
-
-
+ADD_GLOBAL_CTX = True
+ADD_EXTR_CONVS_FOR_REG = 8  # use 0 to do not use any extra convs

@@ -8,59 +8,31 @@ res152D_freezeC1C2_rmaskP2_Concat_800train_augMS_8conv_CTX
 
 This is your result for task 1:
 
-    mAP: 0.7620169399377341
+    mAP: 0.7898724310364561
     ap of each class:
-    plane:0.8977117019842402,
-    baseball-diamond:0.8390004048406762,
-    bridge:0.5630470977853448,
-    ground-track-field:0.7097669997021597,
-    small-vehicle:0.7159674158702728,
-    large-vehicle:0.7562839650155021,
-    ship:0.7782043421009488,
-    tennis-court:0.9076349148571657,
-    basketball-court:0.8788553306342264,
-    storage-tank:0.8613973382828725,
-    soccer-ball-field:0.6224417759019838,
-    roundabout:0.6316635103762036,
-    harbor:0.7604525027972007,
-    swimming-pool:0.8054198738038649,
-    helicopter:0.7024069251133492
-
-MS testing
-The submitted information is :
-
-Description: FPN_Res152D_DOTA1.0_20191106_v1_120w
-Username: SJTU-Det
-Institute: SJTU
-Emailadress: yangxue-2019-sjtu@sjtu.edu.cn
-TeamMembers: yangxue
-
-This is your result for task 1:
-
-    mAP: 0.7654190269747089
-    ap of each class: plane:0.897943407549183,
-    baseball-diamond:0.8433217060066935,
-    bridge:0.5652500995506343,
-    ground-track-field:0.7125359379672431,
-    mall-vehicle:0.7100904284310059,
-    large-vehicle:0.7493992161312828,
-    ship:0.7801758874305936,
-    tennis-court:0.9070048807877378,
-    basketball-court:0.8787595382071405,
-    storage-tank:0.8601298932882064,
-    soccer-ball-field:0.6300234303294431,
-    roundabout:0.6700950599415073,
-    harbor:0.7618216762090279,
-    swimming-pool:0.8006328067325139,
-    helicopter:0.7141014360584202
+    plane:0.9006183729548372,
+    baseball-diamond:0.84372788104372,
+    bridge:0.567618431335344,
+    ground-track-field:0.758221344745048,
+    small-vehicle:0.7932960821323363,
+    large-vehicle:0.7450420960292438,
+    ship:0.8650554150856641,
+    tennis-court:0.907718083481144,
+    basketball-court:0.8850621616004604,
+    storage-tank:0.8684151065606698,
+    soccer-ball-field:0.6960451226690271,
+    roundabout:0.690465622928499,
+    harbor:0.761470680192509,
+    swimming-pool:0.7992065528123767,
+    helicopter:0.766123511975963
 
 The submitted information is :
 
-Description: FPN_Res152D_DOTA1.0_20191106_v1_ms_120w
-Username: yangxue
-Institute: DetectionTeamUCAS
-Emailadress: yangxue16@mails.ucas.ac.cn
-TeamMembers: yangxue, yangjirui
+Description: FPN_Res152D_DOTA1.0_20191106_v1_120w_ms
+Username: DetectionTeamCSU
+Institute: CSU
+Emailadress: yangxue@csu.edu.cn
+TeamMembers: YangXue
 
 
 """
