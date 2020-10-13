@@ -105,7 +105,8 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | OIS | [arXiv:1911.07732](https://arxiv.org/abs/1911.07732) | [related Pytorch code](https://github.com/mrlooi/rotated_maskrcnn) | Oriented Instance Segmentation | :white_check_mark: |
 | LR-RCNN | [arXiv:2005.14264 ](https://arxiv.org/abs/2005.14264) | - | vehicle detection | - |
 | GRS-Det | [TGRS](https://ieeexplore.ieee.org/abstract/document/9186810) | - | ship detection, rotation fcos | - |
-| DRBox-v2 | [TGRS](https://ieeexplore.ieee.org/document/8746781) | [TF](https://github.com/ZongxuPan/DrBox-v2-tensorflow) | sar ship detection, rotation fcos | - |
+| DRBox | [arXiv:1711.09405](https://arxiv.org/abs/1711.09405) | [Caffe](https://github.com/liulei01/DRBox) | sar object detection | :white_check_mark: |
+| DRBox-v2 | [TGRS](https://ieeexplore.ieee.org/document/8746781) | [TF](https://github.com/ZongxuPan/DrBox-v2-tensorflow) | sar object detection | - |
 
 ## Dataset
 Some remote sensing related object detection dataset statistics are in [DATASET.md](DATASET.md)
