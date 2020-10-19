@@ -108,5 +108,11 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | DRBox | [arXiv:1711.09405](https://arxiv.org/abs/1711.09405) | [Caffe](https://github.com/liulei01/DRBox) | sar object detection | :white_check_mark: |
 | DRBox-v2 | [TGRS](https://ieeexplore.ieee.org/document/8746781) | [TF](https://github.com/ZongxuPan/DrBox-v2-tensorflow) | sar object detection | - |
 
+### Other Rotation Detection Codes
+| Base Method |  Code Link | 
+|:-----------:|:----------:| 
+| YOLOv3 | [Pytorch](https://github.com/ming71/rotate-yolov3) | 
+| CenterNet | [Pytorch](https://github.com/ZeroE04/R-CenterNet) |
+
 ## Dataset
 Some remote sensing related object detection dataset statistics are in [DATASET.md](DATASET.md)
