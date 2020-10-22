@@ -111,9 +111,9 @@ This repo is the codebase for our team to participate in DOTA related competitio
 ### Other Rotation Detection Codes
 | Base Method |  Code Link | 
 |:-----------:|:----------:| 
-| RetinaNet | [TF](https://github.com/DetectionTeamUCAS/RetinaNet_Tensorflow_Rotation) | 
-| YOLOv3 | [Pytorch](https://github.com/ming71/rotate-yolov3) | 
-| CenterNet | [Pytorch](https://github.com/ZeroE04/R-CenterNet) |
+| RetinaNet | [RetinaNet_Tensorflow_Rotation](https://github.com/DetectionTeamUCAS/RetinaNet_Tensorflow_Rotation) | 
+| YOLOv3 | [rotate-yolov3-Pytorch](https://github.com/ming71/rotate-yolov3), [YOLOv3-quadrangle-Pytorch](https://github.com/JKBox/YOLOv3-quadrangle), [yolov3-polygon-Pytorch](https://github.com/ming71/yolov3-polygon) | 
+| CenterNet | [R-CenterNet-Pytorch](https://github.com/ZeroE04/R-CenterNet) |
 
 ## Dataset
 Some remote sensing related object detection dataset statistics are in [DATASET.md](DATASET.md)
