@@ -109,6 +109,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | GRS-Det | [TGRS](https://ieeexplore.ieee.org/abstract/document/9186810) | - | ship detection, rotation fcos | - |
 | DRBox | [arXiv:1711.09405](https://arxiv.org/abs/1711.09405) | [Caffe](https://github.com/liulei01/DRBox) | sar object detection | :white_check_mark: |
 | DRBox-v2 | [TGRS](https://ieeexplore.ieee.org/document/8746781) | [TF](https://github.com/ZongxuPan/DrBox-v2-tensorflow) | sar object detection | - |
+| RAPiD | [arXiv:2005.11623](https://arxiv.org/abs/2005.11623) | [Pytorch](https://github.com/duanzhiihao/RAPiD) | overhead fisheye images | - |
 
 ### Other Rotation Detection Codes
 | Base Method |  Code Link | 
