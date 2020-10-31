@@ -222,9 +222,6 @@ class DetectionNetwork(object):
                                                  scope='reg_fc')
 
                 cls_score = tf.reshape(cls_score, [-1, cfgs.CLASS_NUM + 1])
-                bbox_pred = tf.reshape(bbox_pred, [-1, 4 * (cfgs.CLASS_NUM + 1)])
-
-                cls_score = tf.reshape(cls_score, [-1, cfgs.CLASS_NUM + 1])
                 bbox_pred = tf.reshape(bbox_pred, [-1, 5 * (cfgs.CLASS_NUM + 1)])
 
                 return bbox_pred, cls_score
