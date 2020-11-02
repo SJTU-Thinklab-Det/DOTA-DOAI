@@ -73,7 +73,7 @@ cd $PATH_ROOT/tools
 python multi_gpu_train.py
 ```
 
-## Eval
+## Test
 ```  
 cd $PATH_ROOT/tools
 python test_dota_ms.py --test_dir='/PATH/TO/IMAGES/'  
@@ -81,6 +81,9 @@ python test_dota_ms.py --test_dir='/PATH/TO/IMAGES/'
                        -s (visualization, optional)
                        -ms (multi-scale test, optional)         
 ``` 
+
+**Notice: In order to set the breakpoint conveniently, the read and write mode of the file is' a+'. If the model of the same #VERSION needs to be tested again, the original test results need to be deleted.**      
+
 
 ## Tensorboard
 ```  

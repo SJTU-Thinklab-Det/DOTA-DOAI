@@ -22,3 +22,5 @@
 | UVSD | 1 | instance | [Remote Sensing](https://www.mdpi.com/2072-4292/12/11/1760) | [Link](https://github.com/liuchunsense/) | Vehicle |
 | EAGLE | 2 | oriented BB | [arXiv:2007.06124](https://arxiv.org/abs/2007.06124) | [Link]() | Vehicle |
 | RarePlanes | 1 to 110 | instance | [arXiv:2006.02963](https://arxiv.org/abs/2006.02963) | [Link](https://www.cosmiqworks.org/RarePlanes/) | Plane |
+
+For more remote sensing datasets of different research directions, please visit [here](https://blog.csdn.net/nominior/article/details/105247990).
