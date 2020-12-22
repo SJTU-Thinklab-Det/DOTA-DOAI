@@ -55,6 +55,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | FFA | ResNet101 | 75.7 | [ISPRS](https://www.sciencedirect.com/science/article/abs/pii/S0924271620300319) | - | enhanced FPN, rotation proposals | |
 | APE | ResNeXt-101(32x4) | 75.75 | [TGRS](https://ieeexplore.ieee.org/abstract/document/9057525) [arXiv:1906.09447](https://arxiv.org/abs/1906.09447) | - | adaptive period embedding, length independent IoU (LIIoU)| :white_check_mark: |     
 | R<sup>4</sup>Det | ResNet152 | 75.54 | [Image Vis Comput](https://www.sciencedirect.com/science/article/pii/S0262885620301682) | - | feature recursion and refinement |  |     
+| F<sup>3</sup>-Net | ResNet152 | 76.02| [Remote Sensing](https://www.mdpi.com/2072-4292/12/24/4027) | - | feature fusion and filtration |  |
 | CenterMap OBB | ResNet101 | 76.03| [TGRS](https://ieeexplore.ieee.org/abstract/document/9151222) | - | center-probability-map |  |
 | CSL | ResNet152 | 76.17 | [ECCV2020](http://arxiv.org/abs/2003.05597) | [TF:CSL_RetinaNet](https://github.com/Thinklab-SJTU/CSL_RetinaNet_Tensorflow) | angular boundary problem | :white_check_mark: |
 | OWSR | Ensemble (ResNet101 +  ResNeXt101 + mdcn-ResNet101) | 76.36 | [CVPR2019 WorkShop](http://openaccess.thecvf.com/content_CVPRW_2019/papers/DOAI/Li_Learning_Object-Wise_Semantic_Representation_for_Detection_in_Remote_Sensing_Imagery_CVPRW_2019_paper.pdf)   [TGRS](https://ieeexplore.ieee.org/abstract/document/8960460) | - | enhanced FPN | |
@@ -82,6 +83,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | SCRDet | ResNet101 | 75.35 | [ICCV2019](http://openaccess.thecvf.com/content_ICCV_2019/papers/Yang_SCRDet_Towards_More_Robust_Detection_for_Small_Cluttered_and_Rotated_ICCV_2019_paper.pdf) | [TF](https://github.com/DetectionTeamUCAS/R2CNN-Plus-Plus_Tensorflow) | attention, angular boundary problem | :white_check_mark: |
 | FADet | ResNet101 | 75.38 | [ICIP2019](https://ieeexplore.ieee.org/abstract/document/8803521) | - | attention | |
 | MFIAR-Net | ResNet152 | 76.07 | [Sensors](https://www.mdpi.com/1424-8220/20/6/1686/htm) | - | feature attention, enhanced FPN | |
+| F<sup>3</sup>-Net | ResNet152 | 76.48| [Remote Sensing](https://www.mdpi.com/2072-4292/12/24/4027) | - | feature fusion and filtration |  |
 | Mask OBB | ResNeXt-101 | 76.98 | [Remote Sensing](https://www.mdpi.com/2072-4292/11/24/2930/htm) | - | attention, multi-task | :white_check_mark: |
 | CenterMap OBB | ResNet101 | 77.33| [TGRS](https://ieeexplore.ieee.org/abstract/document/9151222) | - | center-probability-map |  |
 | OPLD | ResNet101 | 78.35 | [J-STARS](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9252176) | [Pytorch](https://github.com/yf19970118/OPLD-Pytorch) | boundary problem, point-guided | :white_check_mark: |
