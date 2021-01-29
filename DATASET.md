@@ -16,6 +16,7 @@
 | HRSID | 1 | instance | - | [Link](https://github.com/chaozhong2010/HRSID) | SAR Ship |
 | HRSC2016 | 4 | oriented BB | [ICPR](http://159.226.21.68/handle/173211/14545) | [Link](http://www.escience.cn/people/liuzikun/DataSet.html) | Ship |
 | FGSD | 4 | oriented BB | [arXiv:2003.06832](https://arxiv.org/abs/2003.06832) | - | Ship |
+| FGSD2021 | 20 | oriented BB | [arXiv:2101.11189](https://arxiv.org/abs/2101.11189) | - | Ship |
 | DLR-3K | 2 | oriented BB | [GRSL](https://ieeexplore.ieee.org/abstract/document/7122912/) | [Baidu Drive (bh71)](https://pan.baidu.com/s/1nVYluQ97jftT1zwV8HqUGA) | Vehicle |
 | VEDAI | 9 | oriented BB | [JVCIR](https://www.sciencedirect.com/science/article/pii/S1047320315002187) | [Link](https://downloads.greyc.fr/vedai/) | Vehicle |
 | COWC | 1 | one dot | [ECCV2016](https://link.springer.com/chapter/10.1007/978-3-319-46487-9_48) | [Link](https://gdo152.llnl.gov/cowc/) | Vehicle |

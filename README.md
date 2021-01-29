@@ -49,7 +49,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | DRN | Hourglass104 | 73.23 | [CVPR(oral)](https://arxiv.org/abs/2005.09973) | [code](https://github.com/Anymake/DRN_CVPR2020) | centernet, feature selection module, dynamic refinement head, new dataset (SKU110K-R) | :white_check_mark: |
 | FADet | ResNet101 | 73.28 | [ICIP2019](https://ieeexplore.ieee.org/abstract/document/8803521) | - | attention | |
 | MFIAR-Net | ResNet152 | 73.49 | [Sensors](https://www.mdpi.com/1424-8220/20/6/1686/htm) | - | feature attention, enhanced FPN | |
-| CFC-NET |  | 73.50 | [arXiv:2101.06849](https://arxiv.org/abs/2101.06849) | [Pytorch](https://github.com/ming71/CFC-Net) | critical feature, label assign, refine | :white_check_mark: |
+| CFC-NET | ResNet101 | 73.50 | [arXiv:2101.06849](https://arxiv.org/abs/2101.06849) | [Pytorch](https://github.com/ming71/CFC-Net) | critical feature, label assign, refine | :white_check_mark: |
 | R<sup>3</sup>Det | ResNet152 | 73.74 | [AAAI2021](https://arxiv.org/abs/1908.05612) | [TF](https://github.com/SJTU-Thinklab-Det/R3Det_Tensorflow), [Pytorch](https://github.com/SJTU-Thinklab-Det/r3det-on-mmdetection) | refined single stage, feature alignment | :white_check_mark: |
 | RSDet | ResNet152 | 74.10 | [AAAI2021](https://arxiv.org/abs/1911.08299) | [TF](https://github.com/Mrqianduoduo/RSDet-8P-4R) | quadrilateral bbox, angular boundary problem | :white_check_mark: |
 | Gliding Vertex | ResNet101 | 75.02 | [TPAMI](https://ieeexplore.ieee.org/document/9001201)  [arXiv:1911.09358](https://arxiv.org/abs/1911.09358) | [Pytorch](https://github.com/MingtaoFu/gliding_vertex) | quadrilateral bbox | :white_check_mark: |
@@ -73,6 +73,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | RDD | ResNet101 | 77.75 | [Remote Sensing](https://www.mdpi.com/2072-4292/12/19/3262/htm) | [Pytorch](https://github.com/Capino512/pytorch-rotation-decoupled-detector) | rotation-decoupled |  |
 | FR-Est | ResNet101-DCN | 78.49| [TGRS](https://ieeexplore.ieee.org/abstract/document/9194345) | - | point-based estimator | :white_check_mark: |
 | S<sup>2</sup>A-Net | ResNet101 | 79.15 | [arXiv:2008.09397](https://arxiv.org/abs/2008.09397) | [Pytorch](https://github.com/csuhan/s2anet) | refined single stage, feature alignment | :white_check_mark: |
+| GWD | ResNet152 | 80.23 | [arXiv:2101.11952](https://arxiv.org/abs/2101.11952) | [TF](https://github.com/yangxue0827/RotationDetection) | boundary discontinuity, square-like problem, gaussian wasserstein distance loss | :white_check_mark: |
 
 ### DOTA1.0 (Task2)
 | Model | Backbone | mAP | Paper Link | Code Link | Remark | Recommend |
@@ -128,6 +129,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | OcSaFPN | [arXiv:2012.09859](https://arxiv.org/abs/2012.09859) | - | denoising | - |
 | CR2A-Net | [TGRS](https://ieeexplore.ieee.org/abstract/document/9285168) | - | ship detection | - |
 | - | [TGRS](https://ieeexplore.ieee.org/abstract/document/9301236) | - | knowledge distillation | :white_check_mark: |
+| CHPDet | [arXiv:2101.11189](https://arxiv.org/abs/2101.11189) | - | new ship dataset | :white_check_mark: |
 
 ### Other Rotation Detection Codes
 | Base Method |  Code Link | 
