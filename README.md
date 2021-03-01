@@ -69,7 +69,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | PolarDet | ResNet101 | 76.64 | [arXiv:2010.08720](https://arxiv.org/abs/2010.08720) | - | polar,  center-semantic | :white_check_mark: |
 | SCRDet++ | ResNet101 | 76.81 | [arXiv:2004.13316](https://arxiv.org/abs/2004.13316) | [TF](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI) | angular boundary problem, denoising | :white_check_mark: |
 | DAL+S<sup>2</sup>A-Net | ResNet50 | 76.95 | [AAAI2021](https://arxiv.org/abs/2012.04150) | [Pytorch](https://github.com/ming71/DAL) | label assign | :white_check_mark: |
-| DCL | ResNet152 | 77.37 | [arXiv:2011.09670](https://arxiv.org/abs/2011.09670) | [TF](https://github.com/Thinklab-SJTU/DCL_RetinaNet_Tensorflow) | boundary problem | :white_check_mark: |
+| DCL | ResNet152 | 77.37 | [CVPR21](https://arxiv.org/abs/2011.09670) | [TF](https://github.com/Thinklab-SJTU/DCL_RetinaNet_Tensorflow) | boundary problem | :white_check_mark: |
 | RDD | ResNet101 | 77.75 | [Remote Sensing](https://www.mdpi.com/2072-4292/12/19/3262/htm) | [Pytorch](https://github.com/Capino512/pytorch-rotation-decoupled-detector) | rotation-decoupled |  |
 | FR-Est | ResNet101-DCN | 78.49| [TGRS](https://ieeexplore.ieee.org/abstract/document/9194345) | - | point-based estimator | :white_check_mark: |
 | S<sup>2</sup>A-Net | ResNet101 | 79.15 | [arXiv:2008.09397](https://arxiv.org/abs/2008.09397) | [Pytorch](https://github.com/csuhan/s2anet) | refined single stage, feature alignment | :white_check_mark: |
@@ -121,6 +121,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | ClusDet | [ICCV2019](http://openaccess.thecvf.com/content_ICCV_2019/papers/Yang_Clustered_Object_Detection_in_Aerial_Images_ICCV_2019_paper.pdf) | [Caffe2](https://github.com/fyangneil/Clustered-Object-Detection-in-Aerial-Image) | object cluster regions | :white_check_mark: |
 | DMNet | [CVPR2020 WorkShop](https://arxiv.org/abs/2004.05520) | - | object cluster regions | :white_check_mark: |
 | OIS | [arXiv:1911.07732](https://arxiv.org/abs/1911.07732) | [related Pytorch code](https://github.com/mrlooi/rotated_maskrcnn) | Oriented Instance Segmentation | :white_check_mark: |
+| ISOP | [IGARSS2020](https://ieeexplore.ieee.org/abstract/document/9323274) | - | Oriented Instance Segmentation | |
 | LR-RCNN | [arXiv:2005.14264 ](https://arxiv.org/abs/2005.14264) | - | vehicle detection | - |
 | GRS-Det | [TGRS](https://ieeexplore.ieee.org/abstract/document/9186810) | - | ship detection, rotation fcos | - |
 | DRBox | [arXiv:1711.09405](https://arxiv.org/abs/1711.09405) | [Caffe](https://github.com/liulei01/DRBox) | sar object detection | :white_check_mark: |
