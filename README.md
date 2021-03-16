@@ -69,10 +69,11 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | PolarDet | ResNet101 | 76.64 | [arXiv:2010.08720](https://arxiv.org/abs/2010.08720) | - | polar,  center-semantic | :white_check_mark: |
 | SCRDet++ | ResNet101 | 76.81 | [arXiv:2004.13316](https://arxiv.org/abs/2004.13316) | [TF](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI) | angular boundary problem, denoising | :white_check_mark: |
 | DAL+S<sup>2</sup>A-Net | ResNet50 | 76.95 | [AAAI2021](https://arxiv.org/abs/2012.04150) | [Pytorch](https://github.com/ming71/DAL) | label assign | :white_check_mark: |
-| DCL | ResNet152 | 77.37 | [CVPR21](https://arxiv.org/abs/2011.09670) | [TF](https://github.com/Thinklab-SJTU/DCL_RetinaNet_Tensorflow) | boundary problem | :white_check_mark: |
+| DCL | ResNet152 | 77.37 | [CVPR2021](https://arxiv.org/abs/2011.09670) | [TF](https://github.com/Thinklab-SJTU/DCL_RetinaNet_Tensorflow) | boundary problem | :white_check_mark: |
 | RDD | ResNet101 | 77.75 | [Remote Sensing](https://www.mdpi.com/2072-4292/12/19/3262/htm) | [Pytorch](https://github.com/Capino512/pytorch-rotation-decoupled-detector) | rotation-decoupled |  |
 | FR-Est | ResNet101-DCN | 78.49| [TGRS](https://ieeexplore.ieee.org/abstract/document/9194345) | - | point-based estimator | :white_check_mark: |
 | S<sup>2</sup>A-Net | ResNet101 | 79.15 | [arXiv:2008.09397](https://arxiv.org/abs/2008.09397) | [Pytorch](https://github.com/csuhan/s2anet) | refined single stage, feature alignment | :white_check_mark: |
+| ReDet | ReR50-ReFPN | 80.10 | [CVPR2021](https://arxiv.org/abs/2103.07733) | [Pytorch](https://github.com/csuhan/ReDet) |  rotation-equivariant, rotation-invariant RoI Align, | :white_check_mark: |
 | GWD | ResNet152 | 80.23 | [arXiv:2101.11952](https://arxiv.org/abs/2101.11952) | [TF](https://github.com/yangxue0827/RotationDetection) | boundary discontinuity, square-like problem, gaussian wasserstein distance loss | :white_check_mark: |
 
 ### DOTA1.0 (Task2)
@@ -105,12 +106,13 @@ This repo is the codebase for our team to participate in DOTA related competitio
 |:-----:|:--------:|:---:|:----------:|:---------:|:---------:|:---------:|
 | APE | ResNeXt-101(32x4) | 78.34 | [TGRS](https://ieeexplore.ieee.org/abstract/document/9057525) [arXiv:1906.09447](https://arxiv.org/abs/1906.09447) | - | length independent IoU (LIIoU)| :white_check_mark: |
 | OWSR | Ensemble (ResNet101 +  ResNeXt101 + mdcn-ResNet101) | 76.60 | [TGRS](https://ieeexplore.ieee.org/abstract/document/8960460) [CVPR2019 WorkShop](http://openaccess.thecvf.com/content_CVPRW_2019/papers/DOAI/Li_Learning_Object-Wise_Semantic_Representation_for_Detection_in_Remote_Sensing_Imagery_CVPRW_2019_paper.pdf) | - | enhanced FPN | |
-
+| ReDet | ReR50-ReFPN | 76.80 | [CVPR2021](https://arxiv.org/abs/2103.07733) | [Pytorch](https://github.com/csuhan/ReDet) |  rotation-equivariant, rotation-invariant RoI Align, | :white_check_mark: |
 
 ### DOTA1.5 (Task2)
 | Model | Backbone | mAP | Paper Link | Code Link | Remark | Recommend | 
 |:-----:|:--------:|:---:|:----------:|:---------:|:---------:|:---------:|
 | CDD-Net | ResNet101 | 61.3 | [GRSL](https://ieeexplore.ieee.org/abstract/document/9302742) | - | attention | |
+| ReDet | ReR50-ReFPN | 78.08 | [CVPR2021](https://arxiv.org/abs/2103.07733) | [Pytorch](https://github.com/csuhan/ReDet) |  rotation-equivariant, rotation-invariant RoI Align, | :white_check_mark: |
 | OWSR | Ensemble (ResNet101 +  ResNeXt101 + mdcn-ResNet101) | 79.50 | [TGRS](https://ieeexplore.ieee.org/abstract/document/8960460) [CVPR2019 WorkShop](http://openaccess.thecvf.com/content_CVPRW_2019/papers/DOAI/Li_Learning_Object-Wise_Semantic_Representation_for_Detection_in_Remote_Sensing_Imagery_CVPRW_2019_paper.pdf) | - | enhanced FPN | |
 
 ### Related Articles
@@ -137,6 +139,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 |:-----------:|:----------:| 
 | RetinaNet | [RetinaNet_Tensorflow_Rotation](https://github.com/DetectionTeamUCAS/RetinaNet_Tensorflow_Rotation) | 
 | YOLOv3 | [rotate-yolov3-Pytorch](https://github.com/ming71/rotate-yolov3), [YOLOv3-quadrangle-Pytorch](https://github.com/JKBox/YOLOv3-quadrangle), [yolov3-polygon-Pytorch](https://github.com/ming71/yolov3-polygon) | 
+| YOLOv5 | [rotation-yolov5-Pytorch](https://github.com/BossZard/rotation-yolov5) |
 | CenterNet | [R-CenterNet-Pytorch](https://github.com/ZeroE04/R-CenterNet) |
 
 ## Dataset
