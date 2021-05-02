@@ -58,6 +58,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | Gliding Vertex | ResNet101 | 75.02 | [TPAMI](https://ieeexplore.ieee.org/document/9001201)  [arXiv:1911.09358](https://arxiv.org/abs/1911.09358) | [Pytorch](https://github.com/MingtaoFu/gliding_vertex) | quadrilateral bbox | :white_check_mark: |
 | EFN | U-Net | 75.27 | [Preprints](https://search.proquest.com/docview/2442440949?pq-origsite=gscholar&fromopenview=true) | - | Field-based | :white_check_mark: |
 | SAR | ResNet152 | 75.26 | [Access](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9256343) | - | boundary problem | :white_check_mark: |
+| TricubeNet | Hourglass104 | 75.26 | [arXiv:2104.11435](https://arxiv.org/abs/2104.11435) | [code](https://github.com/qjadud1994/TricubeNet) | 2D tricube kernel  | :white_check_mark: |
 | Mask OBB | ResNeXt-101 | 75.33 | [Remote Sensing](https://www.mdpi.com/2072-4292/11/24/2930/htm) | - | attention, multi-task | :white_check_mark: |
 | - | DarkNet | 75.5 | [TGRS](https://arxiv.org/abs/2104.11854) | - | angle classification | |
 | FFA | ResNet101 | 75.7 | [ISPRS](https://www.sciencedirect.com/science/article/abs/pii/S0924271620300319) | - | enhanced FPN, rotation proposals | |
