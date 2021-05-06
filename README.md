@@ -48,7 +48,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | HRPNet | HRNet-W48 | 72.83 | [GRSL](https://ieeexplore.ieee.org/abstract/document/9281309) | - | polar |  |
 | SARD | ResNet101 | 72.95 | [Access](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8917630) | - | IoU-based weighted loss | |
 | GLS-Net | ResNet101 | 72.96 | [Remote Sensing](https://www.mdpi.com/2072-4292/12/9/1435) | - | attention, saliency pyramid |  |
-| ProjBB | ResNet101 | 7303 | [Access](https://ieeexplore.ieee.org/abstract/document/9400416) | [code](https://github.com/tgis-top/TRD), [codebase](https://github.com/yangxue0827/RotationDetection) | new definition of bounding box |  |
+| ProjBB | ResNet101 | 73.03 | [Access](https://ieeexplore.ieee.org/abstract/document/9400416) | [code](https://github.com/tgis-top/TRD), [codebase](https://github.com/yangxue0827/RotationDetection) | new definition of bounding box |  |
 | DRN | Hourglass104 | 73.23 | [CVPR(oral)](https://arxiv.org/abs/2005.09973) | [code](https://github.com/Anymake/DRN_CVPR2020) | centernet, feature selection module, dynamic refinement head, new dataset (SKU110K-R) | :white_check_mark: |
 | FADet | ResNet101 | 73.28 | [ICIP2019](https://ieeexplore.ieee.org/abstract/document/8803521) | - | attention | |
 | MFIAR-Net | ResNet152 | 73.49 | [Sensors](https://www.mdpi.com/1424-8220/20/6/1686/htm) | - | feature attention, enhanced FPN | |
