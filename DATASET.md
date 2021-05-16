@@ -5,6 +5,7 @@
 | DOTA1.5 | 16 | oriented BB | [CVPR2018](http://openaccess.thecvf.com/content_cvpr_2018/html/Xia_DOTA_A_Large-Scale_CVPR_2018_paper.html) | [Link](https://captain-whu.github.io/DOTA/dataset.html) |
 | DOTA2.0 | 18 | oriented BB | [CVPR2018](http://openaccess.thecvf.com/content_cvpr_2018/html/Xia_DOTA_A_Large-Scale_CVPR_2018_paper.html) | [Link](https://captain-whu.github.io/DOTA/dataset.html) |
 | iSAID | 15 | instance | [CVPRW2019](http://openaccess.thecvf.com/content_CVPRW_2019/html/DOAI/Zamir_iSAID_A_Large-scale_Dataset_for_Instance_Segmentation_in_Aerial_Images_CVPRW_2019_paper.html) | [Link](https://captain-whu.github.io/iSAID/dataset.html) |
+| AI-TOD | 8 | horizontal BB | [ICPR2021](https://github.com/jwwangchn/AI-TOD) | [Link](https://github.com/jwwangchn/AI-TOD) |
 | DIOR | 20 | horizontal BB | [ISPRS](https://www.sciencedirect.com/science/article/pii/S0924271619302825) | [Baidu Drive (ibhm)](https://pan.baidu.com/s/1dhvsEPAwnV30xYnGCPASTw) |
 | NWPU VHR-10 | 10 | horizontal BB | [TGRS](https://ieeexplore.ieee.org/document/7560644) | [Link](http://jiong.tea.ac.cn/people/JunweiHan/NWPUVHR10dataset.html) |
 | UCAS-AOD | 2 | oriented BB | [ICIP](https://ieeexplore.ieee.org/abstract/document/7351502/) | [Link](https://hyper.ai/datasets/5419), [Baidu Drive (r2mr)](https://pan.baidu.com/s/1m6PIWFUCJVVf7XPblgA69Q) |
