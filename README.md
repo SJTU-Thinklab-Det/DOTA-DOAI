@@ -55,6 +55,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | CFC-NET | ResNet101 | 73.50 | [arXiv:2101.06849](https://arxiv.org/abs/2101.06849) | [Pytorch](https://github.com/ming71/CFC-Net) | critical feature, label assign, refine | :white_check_mark: |
 | R<sup>3</sup>Det | ResNet152 | 73.74 | [AAAI2021](https://arxiv.org/abs/1908.05612) | [TF](https://github.com/SJTU-Thinklab-Det/R3Det_Tensorflow), [Pytorch](https://github.com/SJTU-Thinklab-Det/r3det-on-mmdetection) | refined single stage, feature alignment | :white_check_mark: |
 | RSDet | ResNet152 | 74.10 | [AAAI2021](https://arxiv.org/abs/1911.08299) | [TF](https://github.com/Mrqianduoduo/RSDet-8P-4R) | quadrilateral bbox, angular boundary problem | :white_check_mark: |
+| SegmRDet | ResNet50 | 74.14 | [Neurocomputing](https://www.sciencedirect.com/science/article/pii/S0925231220300837) | - | segmentation-baed, new training and inference mechanism |  |
 | Gliding Vertex | ResNet101 | 75.02 | [TPAMI](https://ieeexplore.ieee.org/document/9001201)  [arXiv:1911.09358](https://arxiv.org/abs/1911.09358) | [Pytorch](https://github.com/MingtaoFu/gliding_vertex) | quadrilateral bbox | :white_check_mark: |
 | EFN | U-Net | 75.27 | [Preprints](https://search.proquest.com/docview/2442440949?pq-origsite=gscholar&fromopenview=true) | - | Field-based | :white_check_mark: |
 | SAR | ResNet152 | 75.26 | [Access](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9256343) | - | boundary problem | :white_check_mark: |
@@ -69,6 +70,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | CenterMap OBB | ResNet101 | 76.03| [TGRS](https://ieeexplore.ieee.org/abstract/document/9151222) | - | center-probability-map |  |
 | CSL | ResNet152 | 76.17 | [ECCV2020](http://arxiv.org/abs/2003.05597) | [TF: CSL_RetinaNet](https://github.com/Thinklab-SJTU/CSL_RetinaNet_Tensorflow), [Pytorch: YOLOv5_DOTA_OBB (CSL)](https://github.com/hukaixuan19970627/YOLOv5_DOTA_OBB) | angular boundary problem | :white_check_mark: |
 | MRDet | ResNet101 | 76.24 | [arXiv:2012.13135](http://arxiv.org/abs/2012.13135) | - | arbitrary-oriented rpn, multiple subtasks |  |
+| AFC-Net | ResNet101 | 76.27 | [Neurocomputing](https://www.sciencedirect.com/science/article/pii/S0925231221005294?casa_token=Olsm-GqNOjYAAAAA:-fzJkIhsE0PLwwZNXCiv6K7it1FQ5PU_cwdXHcXxK0gRpkZs0XsN-DTBax4DoW9jx2u0-gyuslc) | - | adaptive feature concatenate |  |
 | OWSR | Ensemble (ResNet101 +  ResNeXt101 + mdcn-ResNet101) | 76.36 | [CVPR2019 WorkShop](http://openaccess.thecvf.com/content_CVPRW_2019/papers/DOAI/Li_Learning_Object-Wise_Semantic_Representation_for_Detection_in_Remote_Sensing_Imagery_CVPRW_2019_paper.pdf)   [TGRS](https://ieeexplore.ieee.org/abstract/document/8960460) | - | enhanced FPN | |
 | OPLD | ResNet101 | 76.43 | [J-STARS](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9252176) | [Pytorch](https://github.com/yf19970118/OPLD-Pytorch) | boundary problem, point-guided | :white_check_mark: |
 | R<sup>3</sup>Det++ | ResNet152 | 76.56 | [arXiv:2004.13316](https://arxiv.org/abs/2004.13316) | [TF](https://github.com/SJTU-Thinklab-Det/R3Det_Tensorflow) | refined single stage, feature alignment, denoising | :white_check_mark: |
@@ -106,6 +108,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | F<sup>3</sup>-Net | ResNet152 | 76.48| [Remote Sensing](https://www.mdpi.com/2072-4292/12/24/4027) | - | feature fusion and filtration |  |
 | Mask OBB | ResNeXt-101 | 76.98 | [Remote Sensing](https://www.mdpi.com/2072-4292/11/24/2930/htm) | - | attention, multi-task | :white_check_mark: |
 | CenterMap OBB | ResNet101 | 77.33| [TGRS](https://ieeexplore.ieee.org/abstract/document/9151222) | - | center-probability-map |  |
+| AFC-Net | ResNet101 | 78.06 | [Neurocomputing](https://www.sciencedirect.com/science/article/pii/S0925231221005294?casa_token=Olsm-GqNOjYAAAAA:-fzJkIhsE0PLwwZNXCiv6K7it1FQ5PU_cwdXHcXxK0gRpkZs0XsN-DTBax4DoW9jx2u0-gyuslc) | - | adaptive feature concatenate |  |
 | CG-Net | ResNet101 | 78.26 | [arXiv:2103.11399](https://arxiv.org/abs/2103.11399) | [Pytorch](https://github.com/WeiZongqi/CG-Net) | attention |  |
 | OPLD | ResNet101 | 78.35 | [J-STARS](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9252176) | [Pytorch](https://github.com/yf19970118/OPLD-Pytorch) | boundary problem, point-guided | :white_check_mark: |
 | A<sup>2</sup>RMNet | ResNet101 | 78.45 | [Remote Sensing](https://www.mdpi.com/2072-4292/11/13/1594) | - | attention, enhanced FPN, different pooled sizes | |
