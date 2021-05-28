@@ -39,7 +39,8 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | CAD-Net | ResNet101 | 69.90 | [TGRS](https://ieeexplore.ieee.org/document/8804364/)  [arXiv:1903.00857](https://arxiv.org/abs/1903.00857) | - | attention |  |
 | A<sup>2</sup>S-Det | ResNet101 | 70.64 | [Remote Sensing](https://www.mdpi.com/2072-4292/13/1/73/htm) | - | label assign |  |
 | AOOD | ResNet101 | 71.18 | [Neural Computing and Applications](https://link.springer.com/article/10.1007/s00521-020-04893-9) | - | attention + [R-DFPN](https://www.mdpi.com/2072-4292/10/1/132) |  |
-| Cascade-FF | ResNet152 | 71.80 | [ICME2020](https://ieeexplore.ieee.org/abstract/document/9102807) | - | Refined RetinaNet + feature fusion |  |
+| Cascade-FF | ResNet152 | 71.80 | [ICME2020](https://ieeexplore.ieee.org/abstract/document/9102807) | - | refined retinanet + feature fusion |  |
+| SCPNet | Hourglass104 | 72,20 | [GRSL](https://ieeexplore.ieee.org/abstract/document/9439947) | - | corner points |  |
 | P-RSDet | ResNet101 | 72.30 | [Access](https://ieeexplore.ieee.org/abstract/document/9272784/) | - | anchor free, polar coordinates | :white_check_mark: |
 | BBAVectors | ResNet101 | 72.32| [WACV2021](https://arxiv.org/abs/2008.07043) | [Pytorch](https://github.com/yijingru/BBAVectors-Oriented-Object-Detection) |  keypoint based  | :white_check_mark: |
 | ROPDet | ResNet101-DCN | 72.42 | [J REAL-TIME IMAGE PR](https://link.springer.com/article/10.1007/s11554-020-01013-7) | - | point set representation |  |
