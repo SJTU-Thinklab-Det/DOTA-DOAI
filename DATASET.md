@@ -9,6 +9,7 @@
 | DIOR | 20 | horizontal BB | [ISPRS](https://www.sciencedirect.com/science/article/pii/S0924271619302825) | [Baidu Drive (ibhm)](https://pan.baidu.com/s/1dhvsEPAwnV30xYnGCPASTw) |
 | NWPU VHR-10 | 10 | horizontal BB | [TGRS](https://ieeexplore.ieee.org/document/7560644) | [Link](http://jiong.tea.ac.cn/people/JunweiHan/NWPUVHR10dataset.html) |
 | UCAS-AOD | 2 | oriented BB | [ICIP](https://ieeexplore.ieee.org/abstract/document/7351502/) | [Link](https://hyper.ai/datasets/5419), [Baidu Drive (r2mr)](https://pan.baidu.com/s/1m6PIWFUCJVVf7XPblgA69Q) |
+| UAV-ROD | 1 | oriented BB | - | [Link](https://github.com/fengkaibit/UAV-ROD) | Car |
 | HRRSD | 13 | horizontal BB | [TGRS](https://ieeexplore.ieee.org/document/8676107) | [Link](https://github.com/CrazyStoneonRoad/TGRS-HRRSD-Dataset) | |
 | RSOD | 4 | horizontal BB | [TGRS](https://ieeexplore.ieee.org/abstract/document/7827088) | [Link](https://github.com/RSIA-LIESMARS-WHU/RSOD-Dataset-) |
 | SAR-Ship-Dataset | 1 | horizontal BB | [Remote Sensing](https://www.mdpi.com/2072-4292/11/7/765) | [Link](https://github.com/CAESAR-Radi/SAR-Ship-Dataset) | SAR Ship |
