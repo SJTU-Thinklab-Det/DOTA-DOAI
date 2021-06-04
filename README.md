@@ -79,7 +79,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | SCRDet++ | ResNet101 | 76.81 | [arXiv:2004.13316](https://arxiv.org/abs/2004.13316) | [TF](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI) | angular boundary problem, denoising | :white_check_mark: |
 | DAL+S<sup>2</sup>A-Net | ResNet50 | 76.95 | [AAAI2021](https://arxiv.org/abs/2012.04150) | [Pytorch](https://github.com/ming71/DAL) | label assign | :white_check_mark: |
 | DCL | ResNet152 | 77.37 | [CVPR2021](https://arxiv.org/abs/2011.09670) | [TF](https://github.com/Thinklab-SJTU/DCL_RetinaNet_Tensorflow) | boundary problem | :white_check_mark: |
-| RIDet | ResNet50 | 77.62| [arXiv:2103.11636](https://arxiv.org/abs/2103.11636) | [Pytorch](https://github.com/ming71/RIDet) | quad., representation ambiguity  | :white_check_mark: |
+| RIDet | ResNet50 | 77.62| [arXiv:2103.11636](https://arxiv.org/abs/2103.11636) | [Pytorch](https://github.com/ming71/RIDet), [TF](https://github.com/yangxue0827/RotationDetection) | quad., representation ambiguity  | :white_check_mark: |
 | RDD | ResNet101 | 77.75 | [Remote Sensing](https://www.mdpi.com/2072-4292/12/19/3262/htm) | [Pytorch](https://github.com/Capino512/pytorch-rotation-decoupled-detector) | rotation-decoupled |  |
 | OSKDet | ResNet101 | 77.81 | [arXiv:2104.08697](https://arxiv.org/abs/2104.08697) | - | keypoint localization (very similar to FR-Est) |  |
 | CG-Net | ResNet101 | 77.89 | [arXiv:2103.11399](https://arxiv.org/abs/2103.11399) | [Pytorch](https://github.com/WeiZongqi/CG-Net) | attention |  |
