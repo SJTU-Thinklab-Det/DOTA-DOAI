@@ -115,6 +115,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | F<sup>3</sup>-Net | ResNet152 | 76.48| [Remote Sensing](https://www.mdpi.com/2072-4292/12/24/4027) | - | feature fusion and filtration |  |
 | Mask OBB | ResNeXt-101 | 76.98 | [Remote Sensing](https://www.mdpi.com/2072-4292/11/24/2930/htm) | - | attention, multi-task | :white_check_mark: |
 | CenterMap OBB | ResNet101 | 77.33| [TGRS](https://ieeexplore.ieee.org/abstract/document/9151222) | - | center-probability-map |  |
+| ASSD | VGG16 | 77.8| [TGRS](https://ieeexplore.ieee.org/abstract/document/9467647) | - | feature aligned |  |
 | AFC-Net | ResNet101 | 78.06 | [Neurocomputing](https://www.sciencedirect.com/science/article/pii/S0925231221005294?casa_token=Olsm-GqNOjYAAAAA:-fzJkIhsE0PLwwZNXCiv6K7it1FQ5PU_cwdXHcXxK0gRpkZs0XsN-DTBax4DoW9jx2u0-gyuslc) | - | adaptive feature concatenate |  |
 | CG-Net | ResNet101 | 78.26 | [arXiv:2103.11399](https://arxiv.org/abs/2103.11399) | [Pytorch](https://github.com/WeiZongqi/CG-Net) | attention |  |
 | OPLD | ResNet101 | 78.35 | [J-STARS](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9252176) | [Pytorch](https://github.com/yf19970118/OPLD-Pytorch) | boundary problem, point-guided | :white_check_mark: |
