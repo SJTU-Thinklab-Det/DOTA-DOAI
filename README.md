@@ -95,7 +95,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | CG-Net | ResNet101 | 77.89 | [arXiv:2103.11399](https://arxiv.org/abs/2103.11399) | [Pytorch](https://github.com/WeiZongqi/CG-Net) | attention |  |
 | Oriented RepPoints | ResNet101 | 78.12 | [arXiv:2105.11111](https://arxiv.org/abs/2105.11111) | [Pytorch](https://github.com/LiWentomng/OrientedRepPoints) | point-based, reppoints | :white_check_mark: |
 | FoRDet | VGG16 | 78.13 | [TGRS](https://ieeexplore.ieee.org/abstract/document/9535140) | - | refinenet |  |
-| AProNet | VGG16 | 78.16 | [ISPRS](https://www.sciencedirect.com/science/article/pii/S092427162100229X) | [Pyrotch](https://github.com/geovsion/AProNet) | axis projection-based angle learning, feature enhancement |  |
+| AProNet | ResNet101 | 78.16 | [ISPRS](https://www.sciencedirect.com/science/article/pii/S092427162100229X) | [Pyrotch](https://github.com/geovsion/AProNet) | axis projection-based angle learning, feature enhancement |  |
 | FR-Est | ResNet101-DCN | 78.49| [TGRS](https://ieeexplore.ieee.org/abstract/document/9194345) | - | point-based estimator | :white_check_mark: |
 | S<sup>2</sup>A-Net | ResNet50/ResNet101 | 79.42/79.15 | [TGRS](https://ieeexplore.ieee.org/document/9377550) | [Pytorch](https://github.com/csuhan/s2anet) | refined single stage, feature alignment | :white_check_mark: |
 | O<sup>2</sup>DETR | ResNet50 | 79.66| [arXiv:2106.03146](https://arxiv.org/abs/2106.03146) | - | deformable detr, transformer | :white_check_mark: |
