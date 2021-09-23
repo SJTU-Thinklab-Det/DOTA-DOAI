@@ -172,7 +172,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | - | [TGRS](https://ieeexplore.ieee.org/abstract/document/9301236) | - | knowledge distillation | :white_check_mark: |
 | CHPDet | [arXiv:2101.11189](https://arxiv.org/abs/2101.11189) | - | new ship dataset | :white_check_mark: |
 
-### Other Rotation Detection Codes
+### Other Rotation Detection Codes and Benchmarks
 | Base Method |  Code Link | 
 |:-----------:|:----------:| 
 | RetinaNet | [RetinaNet_Tensorflow_Rotation](https://github.com/DetectionTeamUCAS/RetinaNet_Tensorflow_Rotation) | 
@@ -180,6 +180,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | YOLOv4 | [rotate-yolov4-Pytorch](https://github.com/kkkunnnnethan/R-YOLOv4) | 
 | YOLOv5 | [rotation-yolov5-Pytorch](https://github.com/BossZard/rotation-yolov5), [YOLOv5_DOTA_OBB (CSL)](https://github.com/hukaixuan19970627/YOLOv5_DOTA_OBB) |
 | CenterNet | [R-CenterNet-Pytorch](https://github.com/ZeroE04/R-CenterNet) |
+| JDet | [Jittor](https://github.com/Jittor/JDet) |
 
 ## Dataset
 Some remote sensing related object detection dataset statistics are in [DATASET.md](DATASET.md)
