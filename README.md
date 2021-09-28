@@ -110,7 +110,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | GWD | ResNet152 | 80.23 | [ICML2021](https://arxiv.org/abs/2101.11952) | [TF](https://github.com/yangxue0827/RotationDetection), [Pytorch code (YOLOv5-GWD)](https://github.com/zhanggefan/rotmmdet) | boundary discontinuity, square-like problem, gaussian wasserstein distance loss | :white_check_mark: |
 | KLD | ResNet152 | 80.63 | [arXiv:2106.01883](https://arxiv.org/abs/2106.01883) | [TF](https://github.com/yangxue0827/RotationDetection), [Pytorch code (YOLOv5-KLD)](https://github.com/zhanggefan/rotmmdet) | Kullback-Leibler divergence, high-precision, scale invariance | :white_check_mark: |
 | Oriented R-CNN | ResNet50/ResNet101 | 80.87/80.52 | [ICCV2021](https://arxiv.org/abs/2108.05699) | [Pytorch](https://github.com/jbwang1997/OBBDetection) | Rotation FPN, Gliding Vertex |  |
-
+  
 ### DOTA1.0 (Task2)
 | Model | Backbone | mAP | Paper Link | Code Link | Remark | Recommend |
 |:-----:|:--------:|:---:|:----------:|:---------:|:---------:|:---------:|
