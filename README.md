@@ -58,7 +58,8 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | RBA-CenterNet | ResNet101 | 73.41 | [IJCNN](https://ieeexplore.ieee.org/document/9534400) | - | centernet, refine feature | |
 | MFIAR-Net | ResNet152 | 73.49 | [Sensors](https://www.mdpi.com/1424-8220/20/6/1686/htm) | - | feature attention, enhanced FPN | |
 | CFC-NET | ResNet101 | 73.50 | [arXiv:2101.06849](https://arxiv.org/abs/2101.06849) | [Pytorch](https://github.com/ming71/CFC-Net) | critical feature, label assign, refine | :white_check_mark: |
-| R<sup>3</sup>Det | ResNet152 | 73.74 | [AAAI2021](https://arxiv.org/abs/1908.05612) | [TF](https://github.com/SJTU-Thinklab-Det/R3Det_Tensorflow), [Pytorch](https://github.com/SJTU-Thinklab-Det/r3det-on-mmdetection) | refined single stage, feature alignment | :white_check_mark: |
+| R<sup>3</sup>Det | ResNet101 | 73.79 | [AAAI2021](https://arxiv.org/abs/1908.05612) | [TF](https://github.com/SJTU-Thinklab-Det/R3Det_Tensorflow), [Pytorch](https://github.com/SJTU-Thinklab-Det/r3det-on-mmdetection) | refined single stage, feature alignment | :white_check_mark: |
+| SDCDet | ResNet101 | 73.89 | [PRAI2021](https://ieeexplore.ieee.org/abstract/document/9551029) | - |  instance segmentation direction correction |  |
 | RSDet | ResNet152 | 74.10 | [AAAI2021](https://arxiv.org/abs/1911.08299) | [TF](https://github.com/Mrqianduoduo/RSDet-8P-4R) | quadrilateral bbox, angular boundary problem | :white_check_mark: |
 | SegmRDet | ResNet50 | 74.14 | [Neurocomputing](https://link.springer.com/article/10.1007/s10489-021-02570-5) | - | anchor free, mask guided, refine feature |  |
 | CenterRot | ResNet152 | 74.75 | [Remote Sensing](https://www.mdpi.com/2072-4292/13/18/3731/htm) | - | anchor free, deformable-fpn, csl |  |
