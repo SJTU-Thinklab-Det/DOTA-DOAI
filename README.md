@@ -30,6 +30,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | R<sup>2</sup>CNN | ResNet101 | 60.67 | [arXiv:1706.09579](https://arxiv.org/abs/1706.09579) | [TF](https://github.com/DetectionTeamUCAS/R2CNN_Faster-RCNN_Tensorflow) | scene text, multi-task, different pooled sizes, baseline | :white_check_mark: |
 | RRPN | ResNet101 | 61.01 | [TMM](https://ieeexplore.ieee.org/document/8323240)   [arXiv:1703.01086](https://arxiv.org/pdf/1703.01086.pdf) | [TF](https://github.com/DetectionTeamUCAS/RRPN_Faster-RCNN_Tensorflow) | scene text, rotation proposals, baseline | :white_check_mark: |
 | Axis Learning | ResNet101 | 65.98 | [Remote Sensing](https://www.mdpi.com/2072-4292/12/6/908) | - | single stage, anchor free | :white_check_mark: |
+| - | ResNet50 |  66.01 | [IGARSS2021](https://ieeexplore.ieee.org/document/9553926) | - | refine, feature alignment |  |
 | MARNet | ResNet101 | 67.19 | [IJRS](https://www.tandfonline.com/doi/full/10.1080/01431161.2021.1910371) | - | based on scrdet |  |
 | ICN | ResNet101 | 68.16 | [ACCV2018](https://link.springer.com/chapter/10.1007/978-3-030-20893-6_10) | - | image cascade, multi-scale | :white_check_mark: |
 | GSDet | ResNet101 | 68.28 | [TIP](https://ieeexplore.ieee.org/document/9411691) | - | scale reasoning |  |
@@ -41,6 +42,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | A<sup>2</sup>S-Det | ResNet101 | 70.64 | [Remote Sensing](https://www.mdpi.com/2072-4292/13/1/73/htm) | - | label assign |  |
 | AOOD | ResNet101 | 71.18 | [Neural Computing and Applications](https://link.springer.com/article/10.1007/s00521-020-04893-9) | - | attention + [R-DFPN](https://www.mdpi.com/2072-4292/10/1/132) |  |
 | CGP Box | ResNet18 | 71.35 | [IJRS](https://www.tandfonline.com/doi/full/10.1080/01431161.2021.1941389) | - | center-guide points |  |
+| - | ResNet101 | 71.76 | [IGRASS2021]() | - | enhanced FPN |  |
 | Cascade-FF | ResNet152 | 71.80 | [ICME2020](https://ieeexplore.ieee.org/abstract/document/9102807) | - | refined retinanet + feature fusion |  |
 | SCPNet | Hourglass104 | 72,20 | [GRSL](https://ieeexplore.ieee.org/abstract/document/9439947) | - | corner points |  |
 | P-RSDet | ResNet101 | 72.30 | [Access](https://ieeexplore.ieee.org/abstract/document/9272784/) | - | anchor free, polar coordinates | :white_check_mark: |
@@ -86,6 +88,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | OWSR | Ensemble (ResNet101 +  ResNeXt101 + mdcn-ResNet101) | 76.36 | [CVPR2019 WorkShop](http://openaccess.thecvf.com/content_CVPRW_2019/papers/DOAI/Li_Learning_Object-Wise_Semantic_Representation_for_Detection_in_Remote_Sensing_Imagery_CVPRW_2019_paper.pdf)   [TGRS](https://ieeexplore.ieee.org/abstract/document/8960460) | - | enhanced FPN | |
 | SLA | ResNet50 | 76.36 | [Remote Sensing](https://www.mdpi.com/2072-4292/13/14/2664/htm) | [Pytorch](https://github.com/ming71/SLA) | sparse label assignment | :white_check_mark: |
 | OPLD | ResNet101 | 76.43 | [J-STARS](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9252176) | [Pytorch](https://github.com/yf19970118/OPLD-Pytorch) | boundary problem, point-guided | :white_check_mark: |
+| Polar Ray | ResNet101 | 76.50 | [ACM MM2021](https://dl.acm.org/doi/10.1145/3474085.3475457) | - |﻿polar rays representation | :white_check_mark: |
 | R<sup>3</sup>Det++ | ResNet152 | 76.56 | [arXiv:2004.13316](https://arxiv.org/abs/2004.13316) | [TF](https://github.com/SJTU-Thinklab-Det/R3Det_Tensorflow) | refined single stage, feature alignment, denoising | :white_check_mark: |
 | PolarDet | ResNet101 | 76.64 | [IJRS](https://www.tandfonline.com/doi/epub/10.1080/01431161.2021.1931535?needAccess=true) [arXiv:2010.08720](https://arxiv.org/abs/2010.08720) | - | polar,  center-semantic | :white_check_mark: |
 | Beyond Bounding-Box | ResNet152 | 76.67 | [CVPR2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Guo_Beyond_Bounding-Box_Convex-Hull_Feature_Adaptation_for_Oriented_and_Densely_Packed_CVPR_2021_paper.pdf) | [Pytorch](https://github.com/sdl-guozonghao/beyondboundingbox) | point-based, reppoints | :white_check_mark: |
