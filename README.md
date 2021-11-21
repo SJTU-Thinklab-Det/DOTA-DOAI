@@ -111,6 +111,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | OFA-Net | ResNet101 | 79.52 | [PRICAI2021](https://link.springer.com/chapter/10.1007/978-3-030-89370-5_27) | - | refined single stage, feature alignment | |
 | O<sup>2</sup>DETR | ResNet50 | 79.66| [arXiv:2106.03146](https://arxiv.org/abs/2106.03146) | - | deformable detr, transformer | :white_check_mark: |
 | ROSD | ResNet101 | 79.76 | [Access](https://ieeexplore.ieee.org/abstract/document/9419068) | - | refined single stage, feature alignment | |
+| SES-Net | ResNet50 | 79.80 | [arXiv:2111.03420](https://arxiv.org/abs/2111.03420) | - | sampling equivariance, self-attention |:white_check_mark: |
 | SARA | ResNet50/ResNet101 | 79.91/79.13 | [Remote Sensing](https://www.mdpi.com/2072-4292/13/7/1318/htm) | - | self-adaptive aspect ratio anchor, refine |  |
 | ARP+R-EIoU | YOLOv5x6 | 79.93 | [arXiv:2109.10187](https://arxiv.org/abs/2109.10187) | - | area ratio of parallelogram, R-EIoU, yolov5 |  |
 | ADT-Det | ResNet152 | 79.95| [Remote Sensing](https://www.mdpi.com/2072-4292/13/13/2623/htm) | - | feature pyramid transformer, feature refineent |  |
