@@ -30,7 +30,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | R<sup>2</sup>CNN | ResNet101 | 60.67 | [arXiv:1706.09579](https://arxiv.org/abs/1706.09579) | [TF](https://github.com/DetectionTeamUCAS/R2CNN_Faster-RCNN_Tensorflow) | scene text, multi-task, different pooled sizes, baseline | :white_check_mark: |
 | RRPN | ResNet101 | 61.01 | [TMM](https://ieeexplore.ieee.org/document/8323240)   [arXiv:1703.01086](https://arxiv.org/pdf/1703.01086.pdf) | [TF](https://github.com/DetectionTeamUCAS/RRPN_Faster-RCNN_Tensorflow) | scene text, rotation proposals, baseline | :white_check_mark: |
 | Axis Learning | ResNet101 | 65.98 | [Remote Sensing](https://www.mdpi.com/2072-4292/12/6/908) | - | single stage, anchor free | :white_check_mark: |
-| - | ResNet50 |  66.01 | [IGARSS2021](https://ieeexplore.ieee.org/document/9553926) | - | refine, feature alignment |  |
+| Li *et al.* | ResNet50 |  66.01 | [IGARSS2021](https://ieeexplore.ieee.org/document/9553926) | - | refine, feature alignment |  |
 | MARNet | ResNet101 | 67.19 | [IJRS](https://www.tandfonline.com/doi/full/10.1080/01431161.2021.1910371) | - | based on scrdet |  |
 | ICN | ResNet101 | 68.16 | [ACCV2018](https://link.springer.com/chapter/10.1007/978-3-030-20893-6_10) | - | image cascade, multi-scale | :white_check_mark: |
 | GSDet | ResNet101 | 68.28 | [TIP](https://ieeexplore.ieee.org/document/9411691) | - | scale reasoning |  |
@@ -42,12 +42,12 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | A<sup>2</sup>S-Det | ResNet101 | 70.64 | [Remote Sensing](https://www.mdpi.com/2072-4292/13/1/73/htm) | - | label assign |  |
 | AOOD | ResNet101 | 71.18 | [Neural Computing and Applications](https://link.springer.com/article/10.1007/s00521-020-04893-9) | - | attention + [R-DFPN](https://www.mdpi.com/2072-4292/10/1/132) |  |
 | CGP Box | ResNet18 | 71.35 | [IJRS](https://www.tandfonline.com/doi/full/10.1080/01431161.2021.1941389) | - | center-guide points |  |
-| - | ResNet101 | 71.76 | [IGRASS2021]() | - | enhanced FPN |  |
+| Pei *et al.* | ResNet101 | 71.76 | [IGRASS2021](https://ieeexplore.ieee.org/abstract/document/9555142) | - | enhanced FPN |  |
 | Cascade-FF | ResNet152 | 71.80 | [ICME2020](https://ieeexplore.ieee.org/abstract/document/9102807) | - | refined retinanet + feature fusion |  |
 | SCPNet | Hourglass104 | 72,20 | [GRSL](https://ieeexplore.ieee.org/abstract/document/9439947) | - | corner points |  |
 | P-RSDet | ResNet101 | 72.30 | [Access](https://ieeexplore.ieee.org/abstract/document/9272784/) | - | anchor free, polar coordinates | :white_check_mark: |
 | BBAVectors | ResNet101 | 72.32 | [WACV2021](https://arxiv.org/abs/2008.07043) | [Pytorch](https://github.com/yijingru/BBAVectors-Oriented-Object-Detection) |  keypoint based  | :white_check_mark: |
-| - | ResNet101 | 72.37 | [GSIS](https://www.tandfonline.com/doi/full/10.1080/10095020.2021.1972772) | - |  refine-stage | |
+| Zhang *et al.* | ResNet101 | 72.37 | [GSIS](https://www.tandfonline.com/doi/full/10.1080/10095020.2021.1972772) | - |  refine-stage | |
 | ROPDet | ResNet101-DCN | 72.42 | [J REAL-TIME IMAGE PR](https://link.springer.com/article/10.1007/s11554-020-01013-7) | - | point set representation |  |
 | SCRDet | ResNet101 | 72.61 | [ICCV2019](http://openaccess.thecvf.com/content_ICCV_2019/papers/Yang_SCRDet_Towards_More_Robust_Detection_for_Small_Cluttered_and_Rotated_ICCV_2019_paper.pdf) | [TF: R<sup>2</sup>CNN++](https://github.com/DetectionTeamUCAS/R2CNN-Plus-Plus_Tensorflow), IoU-Smooth L1: [RetinaNet-based](https://github.com/SJTU-Thinklab-Det/R3Det_Tensorflow), [R<sup>3</sup>Det-based](https://github.com/DetectionTeamUCAS/RetinaNet_Tensorflow_Rotation) | attention, angular boundary problem | :white_check_mark: |
 | O<sup>2</sup>-DNet | Hourglass104 | 72.8 | [ISPRS](https://www.sciencedirect.com/science/article/pii/S0924271620302690), [arXiv:1912.10694](https://arxiv.org/abs/1912.10694) | - | centernet, anchor free | :white_check_mark: |
@@ -62,10 +62,10 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | CFC-NET | ResNet101 | 73.50 | [arXiv:2101.06849](https://arxiv.org/abs/2101.06849) | [Pytorch](https://github.com/ming71/CFC-Net) | critical feature, label assign, refine | :white_check_mark: |
 | R<sup>3</sup>Det | ResNet101 | 73.79 | [AAAI2021](https://arxiv.org/abs/1908.05612) | [TF](https://github.com/SJTU-Thinklab-Det/R3Det_Tensorflow), [Pytorch](https://github.com/SJTU-Thinklab-Det/r3det-on-mmdetection) | refined single stage, feature alignment | :white_check_mark: |
 | SDCDet | ResNet101 | 73.89 | [PRAI2021](https://ieeexplore.ieee.org/abstract/document/9551029) | - |  instance segmentation direction correction |  |
-| RSDet | ResNet152 | 74.10 | [AAAI2021](https://arxiv.org/abs/1911.08299) | [TF](https://github.com/Mrqianduoduo/RSDet-8P-4R) | quadrilateral bbox, angular boundary problem | :white_check_mark: |
-| SegmRDet | ResNet50 | 74.14 | [Neurocomputing](https://link.springer.com/article/10.1007/s10489-021-02570-5) | - | anchor free, mask guided, refine feature |  |
+| RSDet/RSDet++ | ResNet152 | 74.10 | [AAAI2021](https://ojs.aaai.org/index.php/AAAI/article/view/16347)/[arXiv:2109.11906](https://arxiv.org/abs/2109.11906) | [TF](https://github.com/Mrqianduoduo/RSDet-8P-4R) | quadrilateral bbox, angular boundary problem | :white_check_mark: |
+| SegmRDet | ResNet50 | 74.14 | [Neurocomputing](https://www.sciencedirect.com/science/article/pii/S0925231220300837) | - | segmentation-baed, new training and inference |  |
 | CenterRot | ResNet152 | 74.75 | [Remote Sensing](https://www.mdpi.com/2072-4292/13/18/3731/htm) | - | anchor free, deformable-fpn, csl |  |
-| MEAD | ResNet101 | 74.80 | [Applied Intelligence](https://www.sciencedirect.com/science/article/pii/S0925231220300837) | - | segmentation-baed, new training and inference mechanism |  |
+| MEAD | ResNet101 | 74.80 | [Applied Intelligence](https://link.springer.com/article/10.1007/s10489-021-02570-5) | - | mechanism anchor free, mask guided, refine feature |  |
 | Gliding Vertex | ResNet101 | 75.02 | [TPAMI](https://ieeexplore.ieee.org/document/9001201)  [arXiv:1911.09358](https://arxiv.org/abs/1911.09358) | [Pytorch](https://github.com/MingtaoFu/gliding_vertex) | quadrilateral bbox | :white_check_mark: |
 | OSSDet | ResNeXt-10 | 75.08 | [JSTARS](https://ieeexplore.ieee.org/document/9524549) | - | feature enhancement and alignment | |
 | EFN | U-Net | 75.27 | [Preprints](https://search.proquest.com/docview/2442440949?pq-origsite=gscholar&fromopenview=true) | - | Field-based | :white_check_mark: |
@@ -73,7 +73,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | TricubeNet | Hourglass104 | 75.26 | [arXiv:2104.11435](https://arxiv.org/abs/2104.11435) | [code](https://github.com/qjadud1994/TricubeNet) | 2D tricube kernel  | :white_check_mark: |
 | Mask OBB | ResNeXt-101 | 75.33 | [Remote Sensing](https://www.mdpi.com/2072-4292/11/24/2930/htm) | - | attention, multi-task | :white_check_mark: |
 | SAOA | ResNet101 | 75.41 | [ICIG2021](https://link.springer.com/chapter/10.1007/978-3-030-87355-4_23) | - | anchor free, spatial self-attention |  |
-| - | DarkNet | 75.5 | [TGRS](https://arxiv.org/abs/2104.11854) | - | angle classification | |
+| Zand *et al.* | DarkNet53 | 75.5 | [TGRS](https://arxiv.org/abs/2104.11854) | - | angle classification | |
 | TS<sup>4</sup>Net | ResNet101 | 75.63 | [arXiv:2108.03116](https://arxiv.org/abs/2108.03116) | - | label assign  |  |
 | FFA | ResNet101 | 75.7 | [ISPRS](https://www.sciencedirect.com/science/article/abs/pii/S0924271620300319) | - | enhanced FPN, rotation proposals | |
 | CBDA-Net | DLA-34-DCN | 75.74 | [TGRS](https://ieeexplore.ieee.org/document/9400469) | - | dual attention | |     
@@ -85,7 +85,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | CSL | ResNet152 | 76.17 | [ECCV2020](http://arxiv.org/abs/2003.05597) | [TF: CSL_RetinaNet](https://github.com/Thinklab-SJTU/CSL_RetinaNet_Tensorflow), [Pytorch: YOLOv5_DOTA_OBB (CSL)](https://github.com/hukaixuan19970627/YOLOv5_DOTA_OBB) | angular boundary problem | :white_check_mark: |
 | MRDet | ResNet101 | 76.24 | [TGRS](https://ieeexplore.ieee.org/abstract/document/9555822) | - | arbitrary-oriented rpn, multiple subtasks |  |
 | AFC-Net | ResNet101 | 76.27 | [Neurocomputing](https://www.sciencedirect.com/science/article/pii/S0925231221005294?casa_token=Olsm-GqNOjYAAAAA:-fzJkIhsE0PLwwZNXCiv6K7it1FQ5PU_cwdXHcXxK0gRpkZs0XsN-DTBax4DoW9jx2u0-gyuslc) | - | adaptive feature concatenate |  |
-| OWSR | Ensemble (ResNet101 +  ResNeXt101 + mdcn-ResNet101) | 76.36 | [CVPR2019 WorkShop](http://openaccess.thecvf.com/content_CVPRW_2019/papers/DOAI/Li_Learning_Object-Wise_Semantic_Representation_for_Detection_in_Remote_Sensing_Imagery_CVPRW_2019_paper.pdf)   [TGRS](https://ieeexplore.ieee.org/abstract/document/8960460) | - | enhanced FPN | |
+| OWSR | Ensemble (ResNet101 +  ResNeXt101 + mdcn-ResNet101) | 76.36 | [CVPR2019 WorkShop](http://openaccess.thecvf.com/content_CVPRW_2019/papers/DOAI/Li_Learning_Object-Wise_Semantic_Representation_for_Detection_in_Remote_Sensing_Imagery_CVPRW_2019_paper.pdf) | - | enhanced FPN | |
 | SLA | ResNet50 | 76.36 | [Remote Sensing](https://www.mdpi.com/2072-4292/13/14/2664/htm) | [Pytorch](https://github.com/ming71/SLA) | sparse label assignment | :white_check_mark: |
 | OPLD | ResNet101 | 76.43 | [J-STARS](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9252176) | [Pytorch](https://github.com/yf19970118/OPLD-Pytorch) | boundary problem, point-guided | :white_check_mark: |
 | Polar Ray | ResNet101 | 76.50 | [ACM MM2021](https://dl.acm.org/doi/10.1145/3474085.3475457) | - |﻿polar rays representation | :white_check_mark: |
@@ -102,6 +102,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | RDD | ResNet101 | 77.75 | [Remote Sensing](https://www.mdpi.com/2072-4292/12/19/3262/htm) | [Pytorch](https://github.com/Capino512/pytorch-rotation-decoupled-detector) | rotation-decoupled |  |
 | OSKDet | ResNet101 | 77.81 | [arXiv:2104.08697](https://arxiv.org/abs/2104.08697) | - | keypoint localization (very similar to FR-Est) |  |
 | CG-Net | ResNet101 | 77.89 | [arXiv:2103.11399](https://arxiv.org/abs/2103.11399) | [Pytorch](https://github.com/WeiZongqi/CG-Net) | attention |  |
+| HSP | ResNet101 | 78.01 | [TGRS](https://ieeexplore.ieee.org/abstract/document/8960460) | ﻿hierarchical semantic propagatio |  |  |
 | Oriented RepPoints | ResNet101 | 78.12 | [arXiv:2105.11111](https://arxiv.org/abs/2105.11111) | [Pytorch](https://github.com/LiWentomng/OrientedRepPoints) | point-based, reppoints | :white_check_mark: |
 | FoRDet | VGG16 | 78.13 | [TGRS](https://ieeexplore.ieee.org/abstract/document/9535140) | - | refinenet |  |
 | AProNet | ResNet101 | 78.16 | [ISPRS](https://www.sciencedirect.com/science/article/pii/S092427162100229X) | [Pyrotch](https://github.com/geovsion/AProNet) | axis projection-based angle learning, feature enhancement |  |
@@ -145,18 +146,19 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | CG-Net | ResNet101 | 78.26 | [arXiv:2103.11399](https://arxiv.org/abs/2103.11399) | [Pytorch](https://github.com/WeiZongqi/CG-Net) | attention |  |
 | OPLD | ResNet101 | 78.35 | [J-STARS](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9252176) | [Pytorch](https://github.com/yf19970118/OPLD-Pytorch) | boundary problem, point-guided | :white_check_mark: |
 | A<sup>2</sup>RMNet | ResNet101 | 78.45 | [Remote Sensing](https://www.mdpi.com/2072-4292/11/13/1594) | - | attention, enhanced FPN, different pooled sizes | |
-| OWSR | Ensemble (ResNet101 +  ResNeXt101 + mdcn-ResNet101) | 78.79 | [CVPR2019 WorkShop](http://openaccess.thecvf.com/content_CVPRW_2019/papers/DOAI/Li_Learning_Object-Wise_Semantic_Representation_for_Detection_in_Remote_Sensing_Imagery_CVPRW_2019_paper.pdf)   [TGRS](https://ieeexplore.ieee.org/abstract/document/8960460) | - | enhanced FPN | |
+| OWSR | Ensemble (ResNet101 +  ResNeXt101 + mdcn-ResNet101) | 78.79 | [CVPR2019 WorkShop](http://openaccess.thecvf.com/content_CVPRW_2019/papers/DOAI/Li_Learning_Object-Wise_Semantic_Representation_for_Detection_in_Remote_Sensing_Imagery_CVPRW_2019_paper.pdf) | - | enhanced FPN | |
 | NPMMR-Det | DarkNet53 | 78.93 | [TGRS](https://ieeexplore.ieee.org/document/9364888) | [Pytorch](https://github.com/Shank2358/NPMMR-Det) | non-local, enhanced FPN | |
 | Parallel Cascade R-CNN |ResNeXt-101 | 78.96 | [Journal of Physics: Conference Series](https://iopscience.iop.org/article/10.1088/1742-6596/1544/1/012124/meta) | - | cascade rcnn | |
 | DM-FPN | ResNet-Based | 79.27 | [Remote Sensing](https://www.mdpi.com/2072-4292/11/7/755/) | - | enhanced FPN | |
 | DDBN | ResNet101 | 79.3 | [PR](https://www.sciencedirect.com/science/article/pii/S0031320321004957?casa_token=RJ_brpAR66cAAAAA:rTUP7iDFZNOCVhpigcLCP_joHeXLfr9dnmity3DWElayWqais3q0pql2dVH9T-O2uBiYxoRwRg) | - | adjacent feature compensation, dual detection branch | |
 | SCRDet++ | ResNet101 | 79.35 | [arXiv:2004.13316](https://arxiv.org/abs/2004.13316) | [TF](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI) | denoising | :white_check_mark: |
+| HSP | ResNet101 | 80.42 | [TGRS](https://ieeexplore.ieee.org/abstract/document/8960460) | ﻿hierarchical semantic propagatio |  |  |
 
 ### DOTA1.5 (Task1)
 | Model | Backbone | mAP | Paper Link | Code Link | Remark | Recommend |
 |:-----:|:--------:|:---:|:----------:|:---------:|:---------:|:---------:|
 | APE | ResNeXt-101(32x4) | 78.34 | [TGRS](https://ieeexplore.ieee.org/abstract/document/9057525) [arXiv:1906.09447](https://arxiv.org/abs/1906.09447) | - | length independent IoU (LIIoU)| :white_check_mark: |
-| OWSR | Ensemble (ResNet101 +  ResNeXt101 + mdcn-ResNet101) | 76.60 | [TGRS](https://ieeexplore.ieee.org/abstract/document/8960460) [CVPR2019 WorkShop](http://openaccess.thecvf.com/content_CVPRW_2019/papers/DOAI/Li_Learning_Object-Wise_Semantic_Representation_for_Detection_in_Remote_Sensing_Imagery_CVPRW_2019_paper.pdf) | - | enhanced FPN | |
+| OWSR | Ensemble (ResNet101 +  ResNeXt101 + mdcn-ResNet101) | 76.60 | [CVPR2019 WorkShop](http://openaccess.thecvf.com/content_CVPRW_2019/papers/DOAI/Li_Learning_Object-Wise_Semantic_Representation_for_Detection_in_Remote_Sensing_Imagery_CVPRW_2019_paper.pdf) | - | enhanced FPN | |
 | ReDet | ReR50-ReFPN | 76.80 | [CVPR2021](https://arxiv.org/abs/2103.07733) | [Pytorch](https://github.com/csuhan/ReDet) |  rotation-equivariant, rotation-invariant RoI Align, | :white_check_mark: |
 | DAFNe | ResNet101 | 71.99 | [arXiv:2109.06148](https://arxiv.org/abs/2109.06148) | [Pytorch](https://github.com/steven-lang/DAFNe) | r-fcos |  |
 
@@ -165,7 +167,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 |:-----:|:--------:|:---:|:----------:|:---------:|:---------:|:---------:|
 | CDD-Net | ResNet101 | 61.3 | [GRSL](https://ieeexplore.ieee.org/abstract/document/9302742) | - | attention | |
 | ReDet | ReR50-ReFPN | 78.08 | [CVPR2021](https://arxiv.org/abs/2103.07733) | [Pytorch](https://github.com/csuhan/ReDet) |  rotation-equivariant, rotation-invariant RoI Align, | :white_check_mark: |
-| OWSR | Ensemble (ResNet101 +  ResNeXt101 + mdcn-ResNet101) | 79.50 | [TGRS](https://ieeexplore.ieee.org/abstract/document/8960460) [CVPR2019 WorkShop](http://openaccess.thecvf.com/content_CVPRW_2019/papers/DOAI/Li_Learning_Object-Wise_Semantic_Representation_for_Detection_in_Remote_Sensing_Imagery_CVPRW_2019_paper.pdf) | - | enhanced FPN | |
+| OWSR | Ensemble (ResNet101 +  ResNeXt101 + mdcn-ResNet101) | 79.50 | [CVPR2019 WorkShop](http://openaccess.thecvf.com/content_CVPRW_2019/papers/DOAI/Li_Learning_Object-Wise_Semantic_Representation_for_Detection_in_Remote_Sensing_Imagery_CVPRW_2019_paper.pdf) | - | enhanced FPN | |
 
 ### Related Articles
 | Model | Paper Link | Code Link | Remark | Recommend | 
