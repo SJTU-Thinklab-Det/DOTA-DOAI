@@ -198,6 +198,9 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | YOLOv5 | [rotation-yolov5-Pytorch](https://github.com/BossZard/rotation-yolov5), [YOLOv5_DOTA_OBB (CSL)](https://github.com/hukaixuan19970627/YOLOv5_DOTA_OBB) |
 | CenterNet | [R-CenterNet-Pytorch](https://github.com/ZeroE04/R-CenterNet) |
 | JDet | [Jittor](https://github.com/Jittor/JDet) |
+| OBBDet_Swin | [OBBDet_Swin](https://github.com/ming71/OBBDet_Swin) |
+| OBBDet_Swin | [OBBDet_Swin](https://github.com/ming71/OBBDet_Swin) |
+| OrientedRepPoints | [OrientedRepPoints_DOTA_Swin](https://github.com/hukaixuan19970627/OrientedRepPoints_DOTA) |
 
 ## Dataset
 Some remote sensing related object detection dataset statistics are in [DATASET.md](DATASET.md)
