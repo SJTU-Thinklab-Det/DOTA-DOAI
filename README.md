@@ -103,21 +103,20 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | RDD | ResNet101 | 77.75 | [Remote Sensing](https://www.mdpi.com/2072-4292/12/19/3262/htm) | [Pytorch](https://github.com/Capino512/pytorch-rotation-decoupled-detector) | rotation-decoupled |  |
 | OSKDet | ResNet101 | 77.81 | [arXiv:2104.08697](https://arxiv.org/abs/2104.08697) | - | keypoint localization (very similar to FR-Est) |  |
 | CG-Net | ResNet101 | 77.89 | [arXiv:2103.11399](https://arxiv.org/abs/2103.11399) | [Pytorch](https://github.com/WeiZongqi/CG-Net) | attention |  |
-| HSP | ResNet101 | 78.01 | [TGRS](https://ieeexplore.ieee.org/abstract/document/8960460) | ﻿hierarchical semantic propagatio |  |  |
+| HSP | ResNet101 | 78.01 | [TGRS](https://ieeexplore.ieee.org/abstract/document/8960460) | - | hierarchical semantic propagation |  |
 | Oriented RepPoints | ResNet101 | 78.12 | [arXiv:2105.11111](https://arxiv.org/abs/2105.11111) | [Pytorch](https://github.com/LiWentomng/OrientedRepPoints) | point-based, reppoints | :white_check_mark: |
 | FoRDet | VGG16 | 78.13 | [TGRS](https://ieeexplore.ieee.org/abstract/document/9535140) | - | refinenet |  |
 | AProNet | ResNet101 | 78.16 | [ISPRS](https://www.sciencedirect.com/science/article/pii/S092427162100229X) | [Pyrotch](https://github.com/geovsion/AProNet) | axis projection-based angle learning, feature enhancement |  |
 | FR-Est | ResNet101-DCN | 78.49| [TGRS](https://ieeexplore.ieee.org/abstract/document/9194345) | - | point-based estimator | :white_check_mark: |
 | DARDet | ResNet50 | 78.74| [GRSL](https://arxiv.org/abs/2110.01025) | [Pytorch](https://github.com/zf020114/DARDet) | varifocalnet, dcn, piou | |
-| FCOSR | ResNeXt-101 | 78.90 | [arXiv:2111.10780](https://arxiv.org/abs/2111.10780) | [Pytorch](﻿https://github.com/lzh420202/FCOSR) | anchor free | |
-| S<sup>2</sup>A-Net | ResNet50/ResNet101 | 79.42/79.15 | [TGRS](https://ieeexplore.ieee.org/document/9377550) | [Pytorch](https://github.com/csuhan/s2anet) | refined single stage, feature alignment | :white_check_mark: |
+refineent| S<sup>2</sup>A-Net | ResNet50/ResNet101 | 79.42/79.15 | [TGRS](https://ieeexplore.ieee.org/document/9377550) | [Pytorch](https://github.com/csuhan/s2anet) | refined single stage, feature alignment | :white_check_mark: |
 | OFA-Net | ResNet101 | 79.52 | [PRICAI2021](https://link.springer.com/chapter/10.1007/978-3-030-89370-5_27) | - | refined single stage, feature alignment | |
 | O<sup>2</sup>DETR | ResNet50 | 79.66| [arXiv:2106.03146](https://arxiv.org/abs/2106.03146) | - | deformable detr, transformer | :white_check_mark: |
 | ROSD | ResNet101 | 79.76 | [Access](https://ieeexplore.ieee.org/abstract/document/9419068) | - | refined single stage, feature alignment | |
 | SES-Net | ResNet50 | 79.80 | [arXiv:2111.03420](https://arxiv.org/abs/2111.03420) | - | sampling equivariance, self-attention |:white_check_mark: |
 | SARA | ResNet50/ResNet101 | 79.91/79.13 | [Remote Sensing](https://www.mdpi.com/2072-4292/13/7/1318/htm) | - | self-adaptive aspect ratio anchor, refine |  |
 | ARP+R-EIoU | YOLOv5x6 | 79.93 | [arXiv:2109.10187](https://arxiv.org/abs/2109.10187) | - | area ratio of parallelogram, R-EIoU, yolov5 |  |
-| ADT-Det | ResNet152 | 79.95| [Remote Sensing](https://www.mdpi.com/2072-4292/13/13/2623/htm) | - | feature pyramid transformer, feature refineent |  |
+| ADT-Det | ResNet152 | 79.95| [Remote Sensing](https://www.mdpi.com/2072-4292/13/13/2623/htm) | - | feature pyramid transformer, feature refinement |  |
 | ReDet | ReR50-ReFPN | 80.10 | [CVPR2021](https://arxiv.org/abs/2103.07733) | [Pytorch](https://github.com/csuhan/ReDet) |  rotation-equivariant, rotation-invariant roI align | :white_check_mark: |
 | GWD | ResNet152 | 80.23 | [ICML2021](https://arxiv.org/abs/2101.11952) | [TF](https://github.com/yangxue0827/RotationDetection), [Pytorch code (YOLOv5-GWD)](https://github.com/zhanggefan/rotmmdet) | boundary discontinuity, square-like problem, gaussian wasserstein distance loss | :white_check_mark: |
 | O2MER | ResNet50 | 80.47 | [arXiv:2112.00504](https://arxiv.org/abs/2112.00504) | - | consistent geometric constraint  |  |
@@ -155,7 +154,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | DM-FPN | ResNet-Based | 79.27 | [Remote Sensing](https://www.mdpi.com/2072-4292/11/7/755/) | - | enhanced FPN | |
 | DDBN | ResNet101 | 79.3 | [PR](https://www.sciencedirect.com/science/article/pii/S0031320321004957?casa_token=RJ_brpAR66cAAAAA:rTUP7iDFZNOCVhpigcLCP_joHeXLfr9dnmity3DWElayWqais3q0pql2dVH9T-O2uBiYxoRwRg) | - | adjacent feature compensation, dual detection branch | |
 | SCRDet++ | ResNet101 | 79.35 | [arXiv:2004.13316](https://arxiv.org/abs/2004.13316) | [TF](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI) | denoising | :white_check_mark: |
-| HSP | ResNet101 | 80.42 | [TGRS](https://ieeexplore.ieee.org/abstract/document/8960460) | ﻿hierarchical semantic propagatio |  |  |
+| HSP | ResNet101 | 80.42 | [TGRS](https://ieeexplore.ieee.org/abstract/document/8960460) | - | hierarchical semantic propagation |  |
 
 ### DOTA1.5 (Task1)
 | Model | Backbone | mAP | Paper Link | Code Link | Remark | Recommend |
