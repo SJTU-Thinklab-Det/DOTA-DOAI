@@ -17,6 +17,7 @@
 | SSDD+ | 1 | oriented BB | - | [Baidu Drive (oh6x)](https://pan.baidu.com/s/1mWlZ4r6_4k8GHer52BwbzQ) | SAR Ship |
 | AIR-SARShip-1.0 | 1 | horizontal BB | [雷达学报](http://radars.ie.ac.cn/article/doi/10.12000/JR19097?viewType=HTML) | [Link](http://radars.ie.ac.cn/web/data/getData?dataType=SARDataset) | SAR Ship |
 | HRSID | 1 | instance | - | [Link](https://github.com/chaozhong2010/HRSID) | SAR Ship |
+| SRSDD-v1.0 | 6 | oriented BB | - | [Link](https://github.com/HeuristicLU/SRSDD-V1.0) | SAR Ship |
 | HRSC2016 | 4 | oriented BB | [ICPR](http://159.226.21.68/handle/173211/14545) | [Baidu Drive (rfg6)](https://pan.baidu.com/s/1sMIEF8OKzIMcr6_XAOQTng) | Ship |
 | FGSD | 4 | oriented BB | [arXiv:2003.06832](https://arxiv.org/abs/2003.06832) | - | Ship |
 | FGSD2021 | 20 | oriented BB | [arXiv:2101.11189](https://arxiv.org/abs/2101.11189) | - | Ship |
