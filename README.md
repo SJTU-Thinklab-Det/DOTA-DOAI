@@ -60,12 +60,15 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | RBA-CenterNet | ResNet101 | 73.41 | [IJCNN](https://ieeexplore.ieee.org/document/9534400) | - | centernet, refine feature | |
 | MFIAR-Net | ResNet152 | 73.49 | [Sensors](https://www.mdpi.com/1424-8220/20/6/1686/htm) | - | feature attention, enhanced FPN | |
 | CFC-NET | ResNet101 | 73.50 | [arXiv:2101.06849](https://arxiv.org/abs/2101.06849) | [Pytorch](https://github.com/ming71/CFC-Net) | critical feature, label assign, refine | :white_check_mark: |
+| Dual-Det | ResNet18 | 73.62 | [IJRS](https://www.tandfonline.com/doi/full/10.1080/01431161.2021.1995071) | [code](https://github.com/gqy4166000/ijrs_dasr) | ﻿keypoint-based |  |
+| Li *et al.* | CSP-Hourglass | 73.70 | [GRSL](https://ieeexplore.ieee.org/abstract/document/9641849) | - | CSP-Hourglass Net |  |
 | R<sup>3</sup>Det | ResNet101 | 73.79 | [AAAI2021](https://arxiv.org/abs/1908.05612) | [TF](https://github.com/Thinklab-SJTU/R3Det_Tensorflow), [r3det-on-mmdetection](https://github.com/SJTU-Thinklab-Det/r3det-on-mmdetection), [r3det-pytorch](https://github.com/SJTU-Thinklab-Det/r3det-pytorch) | refined single stage, feature alignment | :white_check_mark: |
 | SDCDet | ResNet101 | 73.89 | [PRAI2021](https://ieeexplore.ieee.org/abstract/document/9551029) | - |  instance segmentation direction correction |  |
 | RSDet/RSDet++ | ResNet152 | 74.10 | [AAAI2021](https://ojs.aaai.org/index.php/AAAI/article/view/16347)/[arXiv:2109.11906](https://arxiv.org/abs/2109.11906) | [TF](https://github.com/Mrqianduoduo/RSDet-8P-4R) | quadrilateral bbox, angular boundary problem | :white_check_mark: |
 | SegmRDet | ResNet50 | 74.14 | [Neurocomputing](https://www.sciencedirect.com/science/article/pii/S0925231220300837) | - | segmentation-baed, new training and inference |  |
 | CenterRot | ResNet152 | 74.75 | [Remote Sensing](https://www.mdpi.com/2072-4292/13/18/3731/htm) | - | anchor free, deformable-fpn, csl |  |
 | MEAD | ResNet101 | 74.80 | [Applied Intelligence](https://link.springer.com/article/10.1007/s10489-021-02570-5) | - | mechanism anchor free, mask guided, refine feature |  |
+| FEDet | ResNet50 | 74.89 | [ICCSE 2021](https://ieeexplore.ieee.org/document/9569457) | - | refine feature, angle constraint |  |
 | Gliding Vertex | ResNet101 | 75.02 | [TPAMI](https://ieeexplore.ieee.org/document/9001201)  [arXiv:1911.09358](https://arxiv.org/abs/1911.09358) | [Pytorch](https://github.com/MingtaoFu/gliding_vertex) | quadrilateral bbox | :white_check_mark: |
 | OSSDet | ResNeXt101 | 75.08 | [JSTARS](https://ieeexplore.ieee.org/document/9524549) | - | feature enhancement and alignment | |
 | EFN | U-Net | 75.27 | [Preprints](https://search.proquest.com/docview/2442440949?pq-origsite=gscholar&fromopenview=true) | - | Field-based | :white_check_mark: |
@@ -89,8 +92,8 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | OWSR | Ensemble (ResNet101 +  ResNeXt101 + mdcn-ResNet101) | 76.36 | [CVPR2019 WorkShop](http://openaccess.thecvf.com/content_CVPRW_2019/papers/DOAI/Li_Learning_Object-Wise_Semantic_Representation_for_Detection_in_Remote_Sensing_Imagery_CVPRW_2019_paper.pdf) | - | enhanced FPN | |
 | SLA | ResNet50 | 76.36 | [Remote Sensing](https://www.mdpi.com/2072-4292/13/14/2664/htm) | [Pytorch](https://github.com/ming71/SLA) | sparse label assignment | :white_check_mark: |
 | OPLD | ResNet101 | 76.43 | [J-STARS](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9252176) | [Pytorch](https://github.com/yf19970118/OPLD-Pytorch) | boundary problem, point-guided | :white_check_mark: |
-| Polar Ray | ResNet101 | 76.50 | [ACM MM2021](https://dl.acm.org/doi/10.1145/3474085.3475457) | - |﻿polar rays representation | :white_check_mark: |
- | R<sup>3</sup>Det++ | ResNet152 | 76.56 | [arXiv:2004.13316](https://arxiv.org/abs/2004.13316) | [TF](https://github.com/Thinklab-SJTU/R3Det_Tensorflow) | refined single stage, feature alignment, denoising | :white_check_mark: |
+| Polar Ray | ResNet101 | 76.50 | [ACM MM2021](https://dl.acm.org/doi/10.1145/3474085.3475457) | - | polar rays representation | :white_check_mark: |
+| R<sup>3</sup>Det++ | ResNet152 | 76.56 | [arXiv:2004.13316](https://arxiv.org/abs/2004.13316) | [TF](https://github.com/Thinklab-SJTU/R3Det_Tensorflow) | refined single stage, feature alignment, denoising | :white_check_mark: |
 | PolarDet | ResNet101 | 76.64 | [IJRS](https://www.tandfonline.com/doi/epub/10.1080/01431161.2021.1931535?needAccess=true) [arXiv:2010.08720](https://arxiv.org/abs/2010.08720) | - | polar,  center-semantic | :white_check_mark: |
 | Beyond Bounding-Box | ResNet152 | 76.67 | [CVPR2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Guo_Beyond_Bounding-Box_Convex-Hull_Feature_Adaptation_for_Oriented_and_Densely_Packed_CVPR_2021_paper.pdf) | [Pytorch](https://github.com/sdl-guozonghao/beyondboundingbox) | point-based, reppoints | :white_check_mark: |
 | SCRDet++ | ResNet101 | 76.81 | [arXiv:2004.13316](https://arxiv.org/abs/2004.13316) | [TF](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI) | angular boundary problem, denoising | :white_check_mark: |
@@ -120,7 +123,8 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | ADT-Det | ResNet152 | 79.95| [Remote Sensing](https://www.mdpi.com/2072-4292/13/13/2623/htm) | - | feature pyramid transformer, feature refinement |  |
 | ReDet | ReR50-ReFPN | 80.10 | [CVPR2021](https://arxiv.org/abs/2103.07733) | [Pytorch](https://github.com/csuhan/ReDet) |  rotation-equivariant, rotation-invariant roI align | :white_check_mark: |
 | GWD | ResNet152 | 80.23 | [ICML2021](https://arxiv.org/abs/2101.11952) | [TF](https://github.com/yangxue0827/RotationDetection), [Pytorch code (YOLOv5-GWD)](https://github.com/zhanggefan/rotmmdet) | boundary discontinuity, square-like problem, gaussian wasserstein distance loss | :white_check_mark: |
-| O2MER | ResNet50 | 80.47 | [arXiv:2112.00504](https://arxiv.org/abs/2112.00504) | - | consistent geometric constraint  |  |
+| DEA | ReR50-ReFPN | 80.37 | [arXiv:2112.06701](https://arxiv.org/abs/2112.06701) | [Pytorch](https://github.com/QxGeng/DEA-Net) | dynamic enhancement anchor | :white_check_mark: |
+| O2MER | ResNet50 | 80.43 | [arXiv:2112.00504](https://arxiv.org/abs/2112.00504) | - | consistent geometric constraint  |  |
 | KLD | ResNet152 | 80.63 | [NeurIPS2021](https://arxiv.org/abs/2106.01883) | [TF](https://github.com/yangxue0827/RotationDetection), [Pytorch code (YOLOv5-KLD)](https://github.com/zhanggefan/rotmmdet) | Kullback-Leibler divergence, high-precision, scale invariance | :white_check_mark: |
 | AOPG | ResNet50/ResNet101 | 80.66/80.19 | [arXiv:2110.01931](https://arxiv.org/abs/2110.01931) | [Pytorch](https://github.com/jbwang1997/AOPG) | anchor free, feature align | |
 | Oriented R-CNN | ResNet50/ResNet101 | 80.87/80.52 | [ICCV2021](https://arxiv.org/abs/2108.05699) | [Pytorch](https://github.com/jbwang1997/OBBDetection) | Rotation FPN, Gliding Vertex |  |
