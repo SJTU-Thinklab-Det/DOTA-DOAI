@@ -93,6 +93,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | SLA | ResNet50 | 76.36 | [Remote Sensing](https://www.mdpi.com/2072-4292/13/14/2664/htm) | [Pytorch](https://github.com/ming71/SLA) | sparse label assignment | :white_check_mark: |
 | OPLD | ResNet101 | 76.43 | [J-STARS](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9252176) | [Pytorch](https://github.com/yf19970118/OPLD-Pytorch) | boundary problem, point-guided | :white_check_mark: |
 | Polar Ray | ResNet101 | 76.50 | [ACM MM2021](https://dl.acm.org/doi/10.1145/3474085.3475457) | - | polar rays representation | :white_check_mark: |
+| SIoU | ResNet50 | 76.54 | [JSTARS](https://ieeexplore.ieee.org/document/9661350) | - | ﻿splicing intersection over union  |  |
 | R<sup>3</sup>Det++ | ResNet152 | 76.56 | [arXiv:2004.13316](https://arxiv.org/abs/2004.13316) | [TF](https://github.com/Thinklab-SJTU/R3Det_Tensorflow) | refined single stage, feature alignment, denoising | :white_check_mark: |
 | PolarDet | ResNet101 | 76.64 | [IJRS](https://www.tandfonline.com/doi/epub/10.1080/01431161.2021.1931535?needAccess=true) [arXiv:2010.08720](https://arxiv.org/abs/2010.08720) | - | polar,  center-semantic | :white_check_mark: |
 | Beyond Bounding-Box | ResNet152 | 76.67 | [CVPR2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Guo_Beyond_Bounding-Box_Convex-Hull_Feature_Adaptation_for_Oriented_and_Densely_Packed_CVPR_2021_paper.pdf) | [Pytorch](https://github.com/sdl-guozonghao/beyondboundingbox) | point-based, reppoints | :white_check_mark: |
