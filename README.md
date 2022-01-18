@@ -69,6 +69,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | CenterRot | ResNet152 | 74.75 | [Remote Sensing](https://www.mdpi.com/2072-4292/13/18/3731/htm) | - | anchor free, deformable-fpn, csl |  |
 | MEAD | ResNet101 | 74.80 | [Applied Intelligence](https://link.springer.com/article/10.1007/s10489-021-02570-5) | - | mechanism anchor free, mask guided, refine feature |  |
 | FEDet | ResNet50 | 74.89 | [ICCSE 2021](https://ieeexplore.ieee.org/document/9569457) | - | refine feature, angle constraint |  |
+| SRep-RDet | RepVGG-B1g2 | 74.89 | [IJRS](https://www.tandfonline.com/doi/full/10.1080/01431161.2021.2012294) | - | refine feature, attention, repvgg |  |
 | Gliding Vertex | ResNet101 | 75.02 | [TPAMI](https://ieeexplore.ieee.org/document/9001201)  [arXiv:1911.09358](https://arxiv.org/abs/1911.09358) | [Pytorch](https://github.com/MingtaoFu/gliding_vertex) | quadrilateral bbox | :white_check_mark: |
 | OSSDet | ResNeXt101 | 75.08 | [JSTARS](https://ieeexplore.ieee.org/document/9524549) | - | feature enhancement and alignment | |
 | EFN | U-Net | 75.27 | [Preprints](https://search.proquest.com/docview/2442440949?pq-origsite=gscholar&fromopenview=true) | - | Field-based | :white_check_mark: |
