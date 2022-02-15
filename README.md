@@ -39,6 +39,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | RoI Transformer | ResNet101 | 69.56 | [CVPR2019](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ding_Learning_RoI_Transformer_for_Oriented_Object_Detection_in_Aerial_Images_CVPR_2019_paper.pdf) | [MXNet](https://github.com/dingjiansw101/RoITransformer_DOTA), [Pytorch](https://github.com/dingjiansw101/AerialDetection) | roi transformer | :white_check_mark: |
 | CAD-Net | ResNet101 | 69.90 | [TGRS](https://ieeexplore.ieee.org/document/8804364/)  [arXiv:1903.00857](https://arxiv.org/abs/1903.00857) | - | attention |  |
 | ProbIoU | ResNet50 | 70.04 | [arXiv:2106.06072](https://arxiv.org/abs/2106.06072) | [TF](https://github.com/ProbIOU) | gaussian bounding boxes, hellinger distance | :white_check_mark: |
+| ROTP |  | 70.29 | [arXiv:2202.06565](https://arxiv.org/abs/2202.06565) | - | solar corona heatmap, key points, head of object |  |
 | A<sup>2</sup>S-Det | ResNet101 | 70.64 | [Remote Sensing](https://www.mdpi.com/2072-4292/13/1/73/htm) | - | label assign |  |
 | AOOD | ResNet101 | 71.18 | [Neural Computing and Applications](https://link.springer.com/article/10.1007/s00521-020-04893-9) | - | attention + [R-DFPN](https://www.mdpi.com/2072-4292/10/1/132) |  |
 | CGP Box | ResNet18 | 71.35 | [IJRS](https://www.tandfonline.com/doi/full/10.1080/01431161.2021.1941389) | - | center-guide points |  |
@@ -66,10 +67,12 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | SDCDet | ResNet101 | 73.89 | [PRAI2021](https://ieeexplore.ieee.org/abstract/document/9551029) | - |  instance segmentation direction correction |  |
 | RSDet/RSDet++ | ResNet152 | 74.10 | [AAAI2021](https://ojs.aaai.org/index.php/AAAI/article/view/16347)/[arXiv:2109.11906](https://arxiv.org/abs/2109.11906) | [TF](https://github.com/Mrqianduoduo/RSDet-8P-4R) | quadrilateral bbox, angular boundary problem | :white_check_mark: |
 | SegmRDet | ResNet50 | 74.14 | [Neurocomputing](https://www.sciencedirect.com/science/article/pii/S0925231220300837) | - | segmentation-baed, new training and inference |  |
+| Hou *et al.* | ResNet101 | 74.44 | [TIP](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9690706) | - | enhanced FPN, feature alignment |  |
 | CenterRot | ResNet152 | 74.75 | [Remote Sensing](https://www.mdpi.com/2072-4292/13/18/3731/htm) | - | anchor free, deformable-fpn, csl |  |
 | MEAD | ResNet101 | 74.80 | [Applied Intelligence](https://link.springer.com/article/10.1007/s10489-021-02570-5) | - | mechanism anchor free, mask guided, refine feature |  |
 | FEDet | ResNet50 | 74.89 | [ICCSE 2021](https://ieeexplore.ieee.org/document/9569457) | - | refine feature, angle constraint |  |
 | SRep-RDet | RepVGG-B1g2 | 74.89 | [IJRS](https://www.tandfonline.com/doi/full/10.1080/01431161.2021.2012294) | - | refine feature, attention, repvgg |  |
+| Yuan *et al.* | HRNet32 | 74.97 | [ICCTIT2021](https://iopscience.iop.org/article/10.1088/1742-6596/2189/1/012005/pdf) | - | centernet-r |  |
 | Gliding Vertex | ResNet101 | 75.02 | [TPAMI](https://ieeexplore.ieee.org/document/9001201)  [arXiv:1911.09358](https://arxiv.org/abs/1911.09358) | [Pytorch](https://github.com/MingtaoFu/gliding_vertex) | quadrilateral bbox | :white_check_mark: |
 | OSSDet | ResNeXt101 | 75.08 | [JSTARS](https://ieeexplore.ieee.org/document/9524549) | - | feature enhancement and alignment | |
 | EFN | U-Net | 75.27 | [Preprints](https://search.proquest.com/docview/2442440949?pq-origsite=gscholar&fromopenview=true) | - | Field-based | :white_check_mark: |
@@ -101,7 +104,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | SCRDet++ | ResNet101 | 76.81 | [arXiv:2004.13316](https://arxiv.org/abs/2004.13316) | [TF](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI) | angular boundary problem, denoising | :white_check_mark: |
 | DAFNe | ResNet101 | 76.95 | [arXiv:2109.06148](https://arxiv.org/abs/2109.06148) | [Pytorch](https://github.com/steven-lang/DAFNe) | single stage, anchor free, center-to-corner regression |  |
 | DAL+S<sup>2</sup>A-Net | ResNet50 | 76.95 | [AAAI2021](https://arxiv.org/abs/2012.04150) | [Pytorch](https://github.com/ming71/DAL) | label assign | :white_check_mark: |
-| GGHL | DarkNet53 | 76.95 | [arXiv:2109.12848](https://arxiv.org/abs/2109.12848) | [Pytorch](https://github.com/Shank2358/GGHL) |  gaussian heatmap labeling | :white_check_mark: |
+| GGHL | DarkNet53 | 76.95 | [TIP](https://ieeexplore.ieee.org/abstract/document/9709203) | [Pytorch](https://github.com/Shank2358/GGHL) |  gaussian heatmap labeling | :white_check_mark: |
 | DCL | ResNet152 | 77.37 | [CVPR2021](https://arxiv.org/abs/2011.09670) | [TF](https://github.com/Thinklab-SJTU/DCL_RetinaNet_Tensorflow) | boundary problem | :white_check_mark: |
 | MSFF | ResNet50 | 77.46 | [JSTARS](https://ieeexplore.ieee.org/abstract/document/9444845) | - | rotation invariance features | |
 | RIDet | ResNet50 | 77.62| [GRSL](https://ieeexplore.ieee.org/abstract/document/9555916) | [Pytorch](https://github.com/ming71/RIDet), [TF](https://github.com/yangxue0827/RotationDetection) | quad., representation ambiguity  | :white_check_mark: |
