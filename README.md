@@ -36,7 +36,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | GSDet | ResNet101 | 68.28 | [TIP](https://ieeexplore.ieee.org/document/9411691) | - | scale reasoning |  |
 | RADet | ResNeXt101 | 69.09 | [Remote Sensing](https://www.mdpi.com/2072-4292/12/3/389) | - | enhanced FPN, mask rcnn | |
 | KARNET | ResNet50 | 68.87 | [CISNRC 2020](https://www.dpi-proceedings.com/index.php/dtcse/article/view/35158) | - | attention denoising, anchor refining | |
-| RoI Transformer | ResNet101 | 69.56 | [CVPR2019](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ding_Learning_RoI_Transformer_for_Oriented_Object_Detection_in_Aerial_Images_CVPR_2019_paper.pdf) | [MXNet](https://github.com/dingjiansw101/RoITransformer_DOTA), [Pytorch](https://github.com/dingjiansw101/AerialDetection) | roi transformer | :white_check_mark: |
+| RoI Transformer | ResNet101 | 69.56 | [CVPR2019](http://openaccess.thecvf.com/content_CVPR_2019/papers/Ding_Learning_RoI_Transformer_for_Oriented_Object_Detection_in_Aerial_Images_CVPR_2019_paper.pdf) | [MXNet](https://github.com/dingjiansw101/RoITransformer_DOTA), [Pytorch](https://github.com/dingjiansw101/AerialDetection), [MMRotate](https://github.com/open-mmlab/mmrotate) | roi transformer | :white_check_mark: |
 | CAD-Net | ResNet101 | 69.90 | [TGRS](https://ieeexplore.ieee.org/document/8804364/)  [arXiv:1903.00857](https://arxiv.org/abs/1903.00857) | - | attention |  |
 | ProbIoU | ResNet50 | 70.04 | [arXiv:2106.06072](https://arxiv.org/abs/2106.06072) | [TF](https://github.com/ProbIOU) | gaussian bounding boxes, hellinger distance | :white_check_mark: |
 | ROTP |  | 70.29 | [arXiv:2202.06565](https://arxiv.org/abs/2202.06565) | - | solar corona heatmap, key points, head of object |  |
@@ -63,17 +63,18 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | CFC-NET | ResNet101 | 73.50 | [arXiv:2101.06849](https://arxiv.org/abs/2101.06849) | [Pytorch](https://github.com/ming71/CFC-Net) | critical feature, label assign, refine | :white_check_mark: |
 | Dual-Det | ResNet18 | 73.62 | [IJRS](https://www.tandfonline.com/doi/full/10.1080/01431161.2021.1995071) | [code](https://github.com/gqy4166000/ijrs_dasr) | ﻿keypoint-based |  |
 | Li *et al.* | CSP-Hourglass | 73.70 | [GRSL](https://ieeexplore.ieee.org/abstract/document/9641849) | - | CSP-Hourglass Net |  |
-| R<sup>3</sup>Det | ResNet101 | 73.79 | [AAAI2021](https://arxiv.org/abs/1908.05612) | [TF](https://github.com/Thinklab-SJTU/R3Det_Tensorflow), [r3det-on-mmdetection](https://github.com/SJTU-Thinklab-Det/r3det-on-mmdetection), [r3det-pytorch](https://github.com/SJTU-Thinklab-Det/r3det-pytorch) | refined single stage, feature alignment | :white_check_mark: |
+| R<sup>3</sup>Det | ResNet101 | 73.79 | [AAAI2021](https://arxiv.org/abs/1908.05612) | [TF](https://github.com/Thinklab-SJTU/R3Det_Tensorflow), [r3det-on-mmdetection](https://github.com/SJTU-Thinklab-Det/r3det-on-mmdetection), [r3det-pytorch](https://github.com/SJTU-Thinklab-Det/r3det-pytorch), [MMRotate](https://github.com/open-mmlab/mmrotate) | refined single stage, feature alignment | :white_check_mark: |
 | SDCDet | ResNet101 | 73.89 | [PRAI2021](https://ieeexplore.ieee.org/abstract/document/9551029) | - |  instance segmentation direction correction |  |
 | RSDet/RSDet++ | ResNet152 | 74.10 | [AAAI2021](https://ojs.aaai.org/index.php/AAAI/article/view/16347)/[arXiv:2109.11906](https://arxiv.org/abs/2109.11906) | [TF](https://github.com/Mrqianduoduo/RSDet-8P-4R) | quadrilateral bbox, angular boundary problem | :white_check_mark: |
 | SegmRDet | ResNet50 | 74.14 | [Neurocomputing](https://www.sciencedirect.com/science/article/pii/S0925231220300837) | - | segmentation-baed, new training and inference |  |
 | Hou *et al.* | ResNet101 | 74.44 | [TIP](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9690706) | - | enhanced FPN, feature alignment |  |
+| Wu *et al.* | ResNet50 | 74.45 | [J Electron Imaging](https://www.spiedigitallibrary.org/journals/journal-of-electronic-imaging/volume-31/issue-1/013029/Anchor-constrained-refinement-network-with-Intersection-over-Union-aware-and/10.1117/1.JEI.31.1.013029.full) | - | enhanced FPN, feature alignment |  |
 | CenterRot | ResNet152 | 74.75 | [Remote Sensing](https://www.mdpi.com/2072-4292/13/18/3731/htm) | - | anchor free, deformable-fpn, csl |  |
 | MEAD | ResNet101 | 74.80 | [Applied Intelligence](https://link.springer.com/article/10.1007/s10489-021-02570-5) | - | mechanism anchor free, mask guided, refine feature |  |
 | FEDet | ResNet50 | 74.89 | [ICCSE 2021](https://ieeexplore.ieee.org/document/9569457) | - | refine feature, angle constraint |  |
 | SRep-RDet | RepVGG-B1g2 | 74.89 | [IJRS](https://www.tandfonline.com/doi/full/10.1080/01431161.2021.2012294) | - | refine feature, attention, repvgg |  |
 | Yuan *et al.* | HRNet32 | 74.97 | [ICCTIT2021](https://iopscience.iop.org/article/10.1088/1742-6596/2189/1/012005/pdf) | - | centernet-r |  |
-| Gliding Vertex | ResNet101 | 75.02 | [TPAMI](https://ieeexplore.ieee.org/document/9001201)  [arXiv:1911.09358](https://arxiv.org/abs/1911.09358) | [Pytorch](https://github.com/MingtaoFu/gliding_vertex) | quadrilateral bbox | :white_check_mark: |
+| Gliding Vertex | ResNet101 | 75.02 | [TPAMI](https://ieeexplore.ieee.org/document/9001201)  [arXiv:1911.09358](https://arxiv.org/abs/1911.09358) | [Pytorch](https://github.com/MingtaoFu/gliding_vertex), [MMRotate](https://github.com/open-mmlab/mmrotate) | quadrilateral bbox | :white_check_mark: |
 | OSSDet | ResNeXt101 | 75.08 | [JSTARS](https://ieeexplore.ieee.org/document/9524549) | - | feature enhancement and alignment | |
 | EFN | U-Net | 75.27 | [Preprints](https://search.proquest.com/docview/2442440949?pq-origsite=gscholar&fromopenview=true) | - | Field-based | :white_check_mark: |
 | SAR | ResNet152 | 75.26 | [Access](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9256343) | - | boundary problem | :white_check_mark: |
@@ -81,6 +82,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | Mask OBB | ResNeXt101 | 75.33 | [Remote Sensing](https://www.mdpi.com/2072-4292/11/24/2930/htm) | - | attention, multi-task | :white_check_mark: |
 | SAOA | ResNet101 | 75.41 | [ICIG2021](https://link.springer.com/chapter/10.1007/978-3-030-87355-4_23) | - | anchor free, spatial self-attention |  |
 | Zand *et al.* | DarkNet53 | 75.5 | [TGRS](https://arxiv.org/abs/2104.11854) | - | angle classification | |
+| MSFF | - | 75.60 | [ICCECE 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9712836) | - | multi-scale feature fusion | |
 | TS<sup>4</sup>Net | ResNet101 | 75.63 | [arXiv:2108.03116](https://arxiv.org/abs/2108.03116) | - | label assign  |  |
 | FFA | ResNet101 | 75.7 | [ISPRS](https://www.sciencedirect.com/science/article/abs/pii/S0924271620300319) | - | enhanced FPN, rotation proposals | |
 | CBDA-Net | DLA-34-DCN | 75.74 | [TGRS](https://ieeexplore.ieee.org/document/9400469) | - | dual attention | |     
@@ -100,7 +102,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | SIoU | ResNet50 | 76.54 | [JSTARS](https://ieeexplore.ieee.org/document/9661350) | - | ﻿splicing intersection over union  |  |
 | R<sup>3</sup>Det++ | ResNet152 | 76.56 | [arXiv:2004.13316](https://arxiv.org/abs/2004.13316) | [TF](https://github.com/Thinklab-SJTU/R3Det_Tensorflow) | refined single stage, feature alignment, denoising | :white_check_mark: |
 | PolarDet | ResNet101 | 76.64 | [IJRS](https://www.tandfonline.com/doi/epub/10.1080/01431161.2021.1931535?needAccess=true) [arXiv:2010.08720](https://arxiv.org/abs/2010.08720) | - | polar,  center-semantic | :white_check_mark: |
-| Beyond Bounding-Box | ResNet152 | 76.67 | [CVPR2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Guo_Beyond_Bounding-Box_Convex-Hull_Feature_Adaptation_for_Oriented_and_Densely_Packed_CVPR_2021_paper.pdf) | [Pytorch](https://github.com/sdl-guozonghao/beyondboundingbox) | point-based, reppoints | :white_check_mark: |
+| Beyond Bounding-Box | ResNet152 | 76.67 | [CVPR2021](https://openaccess.thecvf.com/content/CVPR2021/papers/Guo_Beyond_Bounding-Box_Convex-Hull_Feature_Adaptation_for_Oriented_and_Densely_Packed_CVPR_2021_paper.pdf) | [Pytorch](https://github.com/sdl-guozonghao/beyondboundingbox), [MMRotate](https://github.com/open-mmlab/mmrotate) | point-based, reppoints | :white_check_mark: |
 | SCRDet++ | ResNet101 | 76.81 | [arXiv:2004.13316](https://arxiv.org/abs/2004.13316) | [TF](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI) | angular boundary problem, denoising | :white_check_mark: |
 | DAFNe | ResNet101 | 76.95 | [arXiv:2109.06148](https://arxiv.org/abs/2109.06148) | [Pytorch](https://github.com/steven-lang/DAFNe) | single stage, anchor free, center-to-corner regression |  |
 | DAL+S<sup>2</sup>A-Net | ResNet50 | 76.95 | [AAAI2021](https://arxiv.org/abs/2012.04150) | [Pytorch](https://github.com/ming71/DAL) | label assign | :white_check_mark: |
@@ -118,7 +120,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | FR-Est | ResNet101-DCN | 78.49| [TGRS](https://ieeexplore.ieee.org/abstract/document/9194345) | - | point-based estimator | :white_check_mark: |
 | DARDet | ResNet50 | 78.74| [GRSL](https://arxiv.org/abs/2110.01025) | [Pytorch](https://github.com/zf020114/DARDet) | varifocalnet, dcn, piou | |
 | FCOSR | ResNeXt101 | 78.90 | [arXiv:2111.10780](https://arxiv.org/abs/2111.10780) | [Pytorch](https://github.com/lzh420202/FCOSR) | anchor free | |
-| S<sup>2</sup>A-Net | ResNet50/ResNet101 | 79.42/79.15 | [TGRS](https://ieeexplore.ieee.org/document/9377550) | [Pytorch](https://github.com/csuhan/s2anet) | refined single stage, feature alignment | :white_check_mark: |
+| S<sup>2</sup>A-Net | ResNet50/ResNet101 | 79.42/79.15 | [TGRS](https://ieeexplore.ieee.org/document/9377550) | [Pytorch](https://github.com/csuhan/s2anet), [MMRotate](https://github.com/open-mmlab/mmrotate) | refined single stage, feature alignment | :white_check_mark: |
 | OFA-Net | ResNet101 | 79.52 | [PRICAI2021](https://link.springer.com/chapter/10.1007/978-3-030-89370-5_27) | - | refined single stage, feature alignment | |
 | O<sup>2</sup>DETR | ResNet50 | 79.66| [arXiv:2106.03146](https://arxiv.org/abs/2106.03146) | - | deformable detr, transformer | :white_check_mark: |
 | ROSD | ResNet101 | 79.76 | [Access](https://ieeexplore.ieee.org/abstract/document/9419068) | - | refined single stage, feature alignment | |
@@ -126,14 +128,16 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | SARA | ResNet50/ResNet101 | 79.91/79.13 | [Remote Sensing](https://www.mdpi.com/2072-4292/13/7/1318/htm) | - | self-adaptive aspect ratio anchor, refine |  |
 | ARP+R-EIoU | YOLOv5x6 | 79.93 | [arXiv:2109.10187](https://arxiv.org/abs/2109.10187) | - | area ratio of parallelogram, R-EIoU, yolov5 |  |
 | ADT-Det | ResNet152 | 79.95| [Remote Sensing](https://www.mdpi.com/2072-4292/13/13/2623/htm) | - | feature pyramid transformer, feature refinement |  |
-| ReDet | ReR50-ReFPN | 80.10 | [CVPR2021](https://arxiv.org/abs/2103.07733) | [Pytorch](https://github.com/csuhan/ReDet) |  rotation-equivariant, rotation-invariant roI align | :white_check_mark: |
-| GWD | ResNet152 | 80.23 | [ICML2021](https://arxiv.org/abs/2101.11952) | [TF](https://github.com/yangxue0827/RotationDetection), [Pytorch code (YOLOv5-GWD)](https://github.com/zhanggefan/rotmmdet) | boundary discontinuity, square-like problem, gaussian wasserstein distance loss | :white_check_mark: |
+| ReDet | ReR50-ReFPN | 80.10 | [CVPR2021](https://arxiv.org/abs/2103.07733) | [Pytorch](https://github.com/csuhan/ReDet), [MMRotate](https://github.com/open-mmlab/mmrotate) |  rotation-equivariant, rotation-invariant roI align | :white_check_mark: |
+| GWD | ResNet152 | 80.23 | [ICML2021](https://arxiv.org/abs/2101.11952) | [TF](https://github.com/yangxue0827/RotationDetection), [MMRotate](https://github.com/open-mmlab/mmrotate) | boundary discontinuity, square-like problem, gaussian wasserstein distance loss | :white_check_mark: |
 | DEA | ReR50-ReFPN | 80.37 | [arXiv:2112.06701](https://arxiv.org/abs/2112.06701) | [Pytorch](https://github.com/QxGeng/DEA-Net) | dynamic enhancement anchor | :white_check_mark: |
 | O2MER | ResNet50 | 80.43 | [arXiv:2112.00504](https://arxiv.org/abs/2112.00504) | - | consistent geometric constraint  |  |
-| KLD | ResNet152 | 80.63 | [NeurIPS2021](https://arxiv.org/abs/2106.01883) | [TF](https://github.com/yangxue0827/RotationDetection), [Pytorch code (YOLOv5-KLD)](https://github.com/zhanggefan/rotmmdet) | Kullback-Leibler divergence, high-precision, scale invariance | :white_check_mark: |
+| DODet | ResNet50 | 80.62 | [TGRS](https://ieeexplore.ieee.org/document/9706434) | [Pytorch](https://github.com/yanqingyao1994/DODet) | oriented proposal network,  localization-guided head |  |
+| KLD | ResNet152 | 80.63 | [NeurIPS2021](https://arxiv.org/abs/2106.01883) | [TF](https://github.com/yangxue0827/RotationDetection), [MMRotate](https://github.com/open-mmlab/mmrotate) | Kullback-Leibler divergence, high-precision, scale invariance | :white_check_mark: |
 | AOPG | ResNet50/ResNet101 | 80.66/80.19 | [arXiv:2110.01931](https://arxiv.org/abs/2110.01931) | [Pytorch](https://github.com/jbwang1997/AOPG) | anchor free, feature align | |
-| Oriented R-CNN | ResNet50/ResNet101 | 80.87/80.52 | [ICCV2021](https://arxiv.org/abs/2108.05699) | [Pytorch](https://github.com/jbwang1997/OBBDetection) | Rotation FPN, Gliding Vertex |  |
-| KFIoU | ResNet50 | 80.93 | [arXiv:2201.12558](https://arxiv.org/abs/2201.12558) | [TF](https://github.com/yangxue0827/RotationDetection), [Pytorch](https://github.com/open-mmlab/mmrotate) | Gaussian modeling, kalman filter  | :white_check_mark: |
+| AFF-Det | ResNet50 | 80.73 | [Acm T Multim Comput.](https://dl.acm.org/doi/pdf/10.1145/3513133) | - | enhanced fpn | |
+| Oriented R-CNN | ResNet50/ResNet101 | 80.87/80.52 | [ICCV2021](https://arxiv.org/abs/2108.05699) | [Pytorch](https://github.com/jbwang1997/OBBDetection), [MMRotate](https://github.com/open-mmlab/mmrotate) | Rotation FPN, Gliding Vertex |  |
+| KFIoU | ResNet50 | 80.93 | [arXiv:2201.12558](https://arxiv.org/abs/2201.12558) | [TF](https://github.com/yangxue0827/RotationDetection), [MMRotate](https://github.com/open-mmlab/mmrotate) | Gaussian modeling, kalman filter  | :white_check_mark: |
 
 ### DOTA1.0 (Task2)
 | Model | Backbone | mAP | Paper Link | Code Link | Remark | Recommend |
@@ -166,6 +170,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | DDBN | ResNet101 | 79.3 | [PR](https://www.sciencedirect.com/science/article/pii/S0031320321004957?casa_token=RJ_brpAR66cAAAAA:rTUP7iDFZNOCVhpigcLCP_joHeXLfr9dnmity3DWElayWqais3q0pql2dVH9T-O2uBiYxoRwRg) | - | adjacent feature compensation, dual detection branch | |
 | SCRDet++ | ResNet101 | 79.35 | [arXiv:2004.13316](https://arxiv.org/abs/2004.13316) | [TF](https://github.com/SJTU-Thinklab-Det/DOTA-DOAI) | denoising | :white_check_mark: |
 | HSP | ResNet101 | 80.42 | [TGRS](https://ieeexplore.ieee.org/abstract/document/8960460) | - | hierarchical semantic propagation |  |
+| AFF-Det | ResNet101 | 81.18 | [Acm T Multim Comput.](https://dl.acm.org/doi/pdf/10.1145/3513133) | - | enhanced fpn | |
 
 ### DOTA1.5 (Task1)
 | Model | Backbone | mAP | Paper Link | Code Link | Remark | Recommend |
@@ -181,6 +186,11 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | CDD-Net | ResNet101 | 61.3 | [GRSL](https://ieeexplore.ieee.org/abstract/document/9302742) | - | attention | |
 | ReDet | ReR50-ReFPN | 78.08 | [CVPR2021](https://arxiv.org/abs/2103.07733) | [Pytorch](https://github.com/csuhan/ReDet) |  rotation-equivariant, rotation-invariant RoI Align, | :white_check_mark: |
 | OWSR | Ensemble (ResNet101 +  ResNeXt101 + mdcn-ResNet101) | 79.50 | [CVPR2019 WorkShop](http://openaccess.thecvf.com/content_CVPRW_2019/papers/DOAI/Li_Learning_Object-Wise_Semantic_Representation_for_Detection_in_Remote_Sensing_Imagery_CVPRW_2019_paper.pdf) | - | enhanced FPN | |
+
+### DOTA1.5 (Task1)
+| Model | Backbone | mAP | Paper Link | Code Link | Remark | Recommend |
+|:-----:|:--------:|:---:|:----------:|:---------:|:---------:|:---------:|
+| Wen *et al.* | - | 58.22 | [ICCECE 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9712764) | - | yolov5, csl |  |
 
 ### Related Articles
 | Model | Paper Link | Code Link | Remark | Recommend | 
