@@ -3,7 +3,9 @@
 ## Abstract
 This repo is the codebase for our team to participate in DOTA related competitions, including rotation and horizontal detection. We mainly use [FPN](https://arxiv.org/abs/1612.03144)-based two-stage detector, and it is completed by [YangXue](https://yangxue0827.github.io/) and [YangJirui](https://github.com/yangJirui).      
 
-**We also recommend a tensorflow-based [rotation detection benchmark](https://github.com/yangxue0827/RotationDetection), which is led by [YangXue](https://yangxue0827.github.io/).**
+**We also recommend two rotated/oriented object detection benchmarks, which are led by [Xue Yang](https://yangxue0827.github.io/) and [Yue Zhou](https://github.com/zytx121).**
+- [AlpahaRotate-TF](https://github.com/yangxue0827/RotationDetection)
+- [MMRotate-Pytorch](https://github.com/open-mmlab/mmrotate)
 
 ## Performance
 ### DOTA1.0 (Task1)
