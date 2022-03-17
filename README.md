@@ -142,7 +142,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | Li *et al.* | ResNet101 | 80.68 | [Remote Sensing](https://www.mdpi.com/2072-4292/14/5/1246) | - | enhance fpn, polar | |
 | AFF-Det | ResNet50 | 80.73 | [Acm T Multim Comput.](https://dl.acm.org/doi/pdf/10.1145/3513133) | - | enhanced fpn | |
 | Oriented R-CNN | ResNet50/ResNet101 | 80.87/80.52 | [ICCV2021](https://arxiv.org/abs/2108.05699) | [Pytorch](https://github.com/jbwang1997/OBBDetection), [MMRotate](https://github.com/open-mmlab/mmrotate) | Rotation FPN, Gliding Vertex |  |
-| KFIoU | ResNet50 | 80.93 | [arXiv:2201.12558](https://arxiv.org/abs/2201.12558) | [TF](https://github.com/yangxue0827/RotationDetection), [MMRotate](https://github.com/open-mmlab/mmrotate) | Gaussian modeling, kalman filter  | :white_check_mark: |
+| KFIoU | Swin-tiny | 80.93 | [arXiv:2201.12558](https://arxiv.org/abs/2201.12558) | [TF](https://github.com/yangxue0827/RotationDetection), [MMRotate](https://github.com/open-mmlab/mmrotate) | Gaussian modeling, kalman filter  | :white_check_mark: |
 
 ### DOTA1.0 (Task2)
 | Model | Backbone | mAP | Paper Link | Code Link | Remark | Recommend |
