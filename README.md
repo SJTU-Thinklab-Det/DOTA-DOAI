@@ -113,11 +113,11 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | DCL | ResNet152 | 77.37 | [CVPR2021](https://arxiv.org/abs/2011.09670) | [TF](https://github.com/Thinklab-SJTU/DCL_RetinaNet_Tensorflow) | boundary problem | :white_check_mark: |
 | MSFF | ResNet50 | 77.46 | [JSTARS](https://ieeexplore.ieee.org/abstract/document/9444845) | - | rotation invariance features | |
 | RIDet | ResNet50 | 77.62| [GRSL](https://ieeexplore.ieee.org/abstract/document/9555916) | [Pytorch](https://github.com/ming71/RIDet), [TF](https://github.com/yangxue0827/RotationDetection) | quad., representation ambiguity  | :white_check_mark: |
+| Oriented RepPoints | Swin-Tiny | 77.63 | [CVPR2022](https://arxiv.org/abs/2105.11111) | [Pytorch](https://github.com/LiWentomng/OrientedRepPoints) | point-based, reppoints | :white_check_mark: |
 | RDD | ResNet101 | 77.75 | [Remote Sensing](https://www.mdpi.com/2072-4292/12/19/3262/htm) | [Pytorch](https://github.com/Capino512/pytorch-rotation-decoupled-detector) | rotation-decoupled |  |
 | OSKDet | ResNet101 | 77.81 | [arXiv:2104.08697](https://arxiv.org/abs/2104.08697) | - | keypoint localization (very similar to FR-Est) |  |
 | CG-Net | ResNet101 | 77.89 | [arXiv:2103.11399](https://arxiv.org/abs/2103.11399) | [Pytorch](https://github.com/WeiZongqi/CG-Net) | attention |  |
 | HSP | ResNet101 | 78.01 | [TGRS](https://ieeexplore.ieee.org/abstract/document/8960460) | - | hierarchical semantic propagation |  |
-| Oriented RepPoints | ResNet101 | 78.12 | [arXiv:2105.11111](https://arxiv.org/abs/2105.11111) | [Pytorch](https://github.com/LiWentomng/OrientedRepPoints) | point-based, reppoints | :white_check_mark: |
 | FoRDet | VGG16 | 78.13 | [TGRS](https://ieeexplore.ieee.org/abstract/document/9535140) | - | refinenet |  |
 | AProNet | ResNet101 | 78.16 | [ISPRS](https://www.sciencedirect.com/science/article/pii/S092427162100229X) | [Pyrotch](https://github.com/geovsion/AProNet) | axis projection-based angle learning, feature enhancement |  |
 | FR-Est | ResNet101-DCN | 78.49| [TGRS](https://ieeexplore.ieee.org/abstract/document/9194345) | - | point-based estimator | :white_check_mark: |
