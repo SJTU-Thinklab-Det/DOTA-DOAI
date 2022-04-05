@@ -96,6 +96,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | F<sup>3</sup>-Net | ResNet152 | 76.02 | [Remote Sensing](https://www.mdpi.com/2072-4292/12/24/4027) | - | feature fusion and filtration |  |
 | CenterMap OBB | ResNet101 | 76.03 | [TGRS](https://ieeexplore.ieee.org/abstract/document/9151222) | - | center-probability-map |  |
 | DA-Net | ResNet101 | 76.11 | [GRSL](https://ieeexplore.ieee.org/document/9627697/) | - | feature alignment |  |
+| MDL-p | ResNet101 | 76.16 | [arXiv:2204.00840](https://arxiv.org/abs/2204.00840) | - | gaussian modeling |  |
 | CSL | ResNet152 | 76.17 | [ECCV2020](http://arxiv.org/abs/2003.05597) | [TF: CSL_RetinaNet](https://github.com/Thinklab-SJTU/CSL_RetinaNet_Tensorflow), [MMRotate](https://github.com/open-mmlab/mmrotate), [Pytorch: YOLOv5_DOTA_OBB (CSL)](https://github.com/hukaixuan19970627/YOLOv5_DOTA_OBB) | angular boundary problem | :white_check_mark: |
 | MRDet | ResNet101 | 76.24 | [TGRS](https://ieeexplore.ieee.org/abstract/document/9555822) | - | arbitrary-oriented rpn, multiple subtasks |  |
 | AFC-Net | ResNet101 | 76.27 | [Neurocomputing](https://www.sciencedirect.com/science/article/pii/S0925231221005294?casa_token=Olsm-GqNOjYAAAAA:-fzJkIhsE0PLwwZNXCiv6K7it1FQ5PU_cwdXHcXxK0gRpkZs0XsN-DTBax4DoW9jx2u0-gyuslc) | - | adaptive feature concatenate |  |
