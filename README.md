@@ -86,6 +86,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | SAOA | ResNet101 | 75.41 | [ICIG2021](https://link.springer.com/chapter/10.1007/978-3-030-87355-4_23) | - | anchor free, spatial self-attention |  |
 | Zand *et al.* | DarkNet53 | 75.5 | [TGRS](https://arxiv.org/abs/2104.11854) | - | angle classification | |
 | MSFF | - | 75.60 | [ICCECE 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9712836) | - | multi-scale feature fusion | |
+| RODFormer | ViT-B4 | 75.60 | [Sensors](https://www.mdpi.com/1424-8220/22/7/2633) | - | vision transformer | |
 | TS<sup>4</sup>Net | ResNet101 | 75.63 | [arXiv:2108.03116](https://arxiv.org/abs/2108.03116) | - | label assign  |  |
 | FFA | ResNet101 | 75.7 | [ISPRS](https://www.sciencedirect.com/science/article/abs/pii/S0924271620300319) | - | enhanced FPN, rotation proposals | |
 | CBDA-Net | DLA-34-DCN | 75.74 | [TGRS](https://ieeexplore.ieee.org/document/9400469) | - | dual attention | |     
@@ -126,8 +127,11 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | FR-Est | ResNet101-DCN | 78.49| [TGRS](https://ieeexplore.ieee.org/abstract/document/9194345) | - | point-based estimator | :white_check_mark: |
 | DARDet | ResNet50 | 78.74| [GRSL](https://arxiv.org/abs/2110.01025) | [Pytorch](https://github.com/zf020114/DARDet) | varifocalnet, dcn, piou | |
 | FCOSR | ResNeXt101 | 78.90 | [arXiv:2111.10780](https://arxiv.org/abs/2111.10780) | [Pytorch](https://github.com/lzh420202/FCOSR) | anchor free | |
+| P2P | ResNet101 | 79.15 | [AAAI2022](https://www.aaai.org/AAAI22Papers/AAAI-8470.YangY.pdf) | - | poly iou loss | :white_check_mark: |
+| SASM | ResNeXt101 | 79.17 | [AAAI2022](https://www.aaai.org/AAAI22Papers/AAAI-2171.HouL.pdf) | [MMRotate](https://github.com/open-mmlab/mmrotate), [Pytorch](https://github.com/houliping/SASM) | label assign | :white_check_mark: |
 | S<sup>2</sup>A-Net | ResNet50/ResNet101 | 79.42/79.15 | [TGRS](https://ieeexplore.ieee.org/document/9377550) | [Pytorch](https://github.com/csuhan/s2anet), [MMRotate](https://github.com/open-mmlab/mmrotate) | refined single stage, feature alignment | :white_check_mark: |
 | OFA-Net | ResNet101 | 79.52 | [PRICAI2021](https://link.springer.com/chapter/10.1007/978-3-030-89370-5_27) | - | refined single stage, feature alignment | |
+| RBox | ResNet50 | 79.59 | [arXiv:2203.15221](https://arxiv.org/abs/2203.15221) | - | transformer, feature sampling and grouping | :white_check_mark: |
 | O<sup>2</sup>DETR | ResNet50 | 79.66| [arXiv:2106.03146](https://arxiv.org/abs/2106.03146) | - | deformable detr, transformer | :white_check_mark: |
 | ROSD | ResNet101 | 79.76 | [Access](https://ieeexplore.ieee.org/abstract/document/9419068) | - | refined single stage, feature alignment | |
 | RAOD | ResNet101 | 79.78 | [Applied Intelligence](https://link.springer.com/content/pdf/10.1007/s10489-022-03393-8.pdf) | - |  enhanced fpn, feature refine |  |
