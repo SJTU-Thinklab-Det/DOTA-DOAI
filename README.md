@@ -130,6 +130,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | FCOSR | ResNeXt101 | 78.90 | [arXiv:2111.10780](https://arxiv.org/abs/2111.10780) | [Pytorch](https://github.com/lzh420202/FCOSR) | anchor free | |
 | P2P | ResNet101 | 79.15 | [AAAI2022](https://www.aaai.org/AAAI22Papers/AAAI-8470.YangY.pdf) | - | poly iou loss | :white_check_mark: |
 | SASM | ResNeXt101 | 79.17 | [AAAI2022](https://www.aaai.org/AAAI22Papers/AAAI-2171.HouL.pdf) | [MMRotate](https://github.com/open-mmlab/mmrotate), [Pytorch](https://github.com/houliping/SASM) | label assign | :white_check_mark: |
+| GSNet | ResNet101 | 79.37 | [arXiv:2204.02033](https://arxiv.org/abs/2204.02033) | - | enhanced fpn  | |
 | S<sup>2</sup>A-Net | ResNet50/ResNet101 | 79.42/79.15 | [TGRS](https://ieeexplore.ieee.org/document/9377550) | [Pytorch](https://github.com/csuhan/s2anet), [MMRotate](https://github.com/open-mmlab/mmrotate) | refined single stage, feature alignment | :white_check_mark: |
 | OFA-Net | ResNet101 | 79.52 | [PRICAI2021](https://link.springer.com/chapter/10.1007/978-3-030-89370-5_27) | - | refined single stage, feature alignment | |
 | RBox | ResNet50 | 79.59 | [arXiv:2203.15221](https://arxiv.org/abs/2203.15221) | - | transformer, feature sampling and grouping | :white_check_mark: |
