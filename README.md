@@ -243,6 +243,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | JDet | [Jittor](https://github.com/Jittor/JDet) |
 | OBBDet_Swin | [OBBDet_Swin](https://github.com/ming71/OBBDet_Swin) |
 | OrientedRepPoints | [OrientedRepPoints_DOTA_Swin](https://github.com/hukaixuan19970627/OrientedRepPoints_DOTA) |
+| Localization Distillation | [Rotated-LD](https://github.com/Zzh-tju/Rotated-LD) |
 
 ## Dataset
 Some remote sensing related object detection dataset statistics are in [DATASET.md](DATASET.md)
