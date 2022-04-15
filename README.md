@@ -28,7 +28,7 @@ This repo is the codebase for our team to participate in DOTA related competitio
 | FR-O (DOTA) | ResNet101 | 52.93 | [CVPR2018](http://openaccess.thecvf.com/content_cvpr_2018/html/Xia_DOTA_A_Large-Scale_CVPR_2018_paper.html) | [MXNet](https://github.com/jessemelpolio/Faster_RCNN_for_DOTA) | DOTA dataset, baseline | :white_check_mark: |
 | IENet | ResNet101 | 57.14 | [arXiv:1912.00969](https://arxiv.org/abs/1912.00969) | - | anchor free | |
 | TOSO | ResNet101 | 57.52 | [ICASSP2020](https://ieeexplore.ieee.org/document/9053562) | - | geometric transformation | |
-| Wang *et al.* | HRNet |  | [Comput. Electr. Eng.](https://www.sciencedirect.com/science/article/pii/S004579062200249X) | - | anchor free | |
+| Wang *et al.* | HRNet | 58.29 | [Comput. Electr. Eng.](https://www.sciencedirect.com/science/article/pii/S004579062200249X) | - | anchor free | |
 | PIoU Loss | DLA-34 | 60.5 | [ECCV2020](https://arxiv.org/abs/2007.09584) | [Pytorch](https://github.com/clobotics/piou) | IoU loss, anchor free | :white_check_mark: |
 | R<sup>2</sup>CNN | ResNet101 | 60.67 | [arXiv:1706.09579](https://arxiv.org/abs/1706.09579) | [TF](https://github.com/DetectionTeamUCAS/R2CNN_Faster-RCNN_Tensorflow) | scene text, multi-task, different pooled sizes, baseline | :white_check_mark: |
 | RRPN | ResNet101 | 61.01 | [TMM](https://ieeexplore.ieee.org/document/8323240)   [arXiv:1703.01086](https://arxiv.org/pdf/1703.01086.pdf) | [TF](https://github.com/DetectionTeamUCAS/RRPN_Faster-RCNN_Tensorflow) | scene text, rotation proposals, baseline | :white_check_mark: |
